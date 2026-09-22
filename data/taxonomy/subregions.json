@@ -9,14 +9,18 @@
     { "id": "central-asia", "names": { "zh": "中亞", "en": "Central Asia" } },
     { "id": "east-asia", "names": { "zh": "東亞", "en": "East Asia" } },
     { "id": "mainland-southeast-asia", "names": { "zh": "中南半島東南亞", "en": "Mainland Southeast Asia" } },
-    { "id": "maritime-southeast-asia", "names": { "zh": "海島東南亞", "en": "Maritime Southeast Asia" } }
+    { "id": "maritime-southeast-asia", "names": { "zh": "海島東南亞", "en": "Maritime Southeast Asia" } },
+    { "id": "south-asia", "names": { "zh": "南亞", "en": "South Asia" } },
+    { "id": "middle-east", "names": { "zh": "中東", "en": "Middle East" } },
+    { "id": "caucasus", "names": { "zh": "高加索", "en": "Caucasus" } }
   ],
   "europe": [
     { "id": "eastern-europe", "names": { "zh": "東歐", "en": "Eastern Europe" } },
     { "id": "central-europe", "names": { "zh": "中歐", "en": "Central Europe" } },
     { "id": "western-europe", "names": { "zh": "西歐", "en": "Western Europe" } },
     { "id": "southern-europe", "names": { "zh": "南歐", "en": "Southern Europe" } },
-    { "id": "northern-europe", "names": { "zh": "北歐", "en": "Northern Europe" } }
+    { "id": "northern-europe", "names": { "zh": "北歐", "en": "Northern Europe" } },
+    { "id": "balkans", "names": { "zh": "巴爾幹", "en": "Balkans" } }
   ],
   "north-america": [
     { "id": "north-america", "names": { "zh": "北美", "en": "North America" } },
@@ -25,5 +29,7 @@
   "south-america": [
     { "id": "south-america", "names": { "zh": "南美", "en": "South America" } }
   ],
-  "oceania": []
+  "oceania": [
+    { "id": "oceania", "names": { "zh": "大洋洲", "en": "Oceania" } }
+  ]
 }

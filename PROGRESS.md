@@ -3,7 +3,7 @@
 Tracks `/data/countries/*.json` completion against `geolearn-africa-spec.md` §5
 (Phase 1 rollout). Update this file whenever a batch of countries is inserted.
 
-## Done (98 countries)
+## Done (99 countries)
 
 ### Batch 01 — `phase1-batch-01.md`
 | id | continent/subregion | culturalMarkers |
@@ -368,21 +368,54 @@ noted as essentially nonexistent. Panama's `frontRequired: false` and
 Ecuador's `signStandard` (`"us-mutcd"` despite unratified Vienna signature)
 are judgment calls worth a second look later.
 
+### Batch 08 — taxonomy expansion + Latvia (ad hoc request, no batch file)
+
+Added 5 new subregions to `data/taxonomy/subregions.json` ahead of future
+country batches (no countries assigned yet, except where noted):
+`south-asia`, `middle-east`, `caucasus` (asia); `balkans` (europe);
+`oceania` (oceania — subregion id intentionally matches the continent id,
+same pattern as `north-america`/`south-america`).
+
+| id | continent/subregion | culturalMarkers |
+|---|---|---|
+| latvia | europe / eastern-europe | empty — needs manual review |
+
+Latvia was requested for reassignment into `eastern-europe` (to match
+Lithuania/Estonia), but didn't actually exist in the dataset yet — it had
+only ever appeared as a `commonlyConfusedWith` placeholder on Lithuania's
+and Estonia's records. Researched and added fresh instead (WebFetch on
+Wikipedia, since this session's WebSearch quota — 200/session, shared
+across all fork agents run today — was exhausted; geometas.com covered the
+bollard detail). Verified 2026-09-22. Sources: [Vehicle registration
+plates of Latvia](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_Latvia),
+[Road signs in Latvia](https://en.wikipedia.org/wiki/Road_signs_in_Latvia),
+[Languages of Latvia](https://en.wikipedia.org/wiki/Languages_of_Latvia),
+[Latvia — Geometas](https://geometas.com/metas/countries/latvia/).
+
+Notable: Latvian and Lithuanian are the only two surviving Baltic
+languages, clearly distinct from Estonian (Uralic) — the three "Baltic
+states" are geographically grouped but linguistically split 2-vs-1, a
+point already established on Estonia's record and now made explicit on
+Latvia's too. Latvia acceded to the Vienna Convention on Road Signs and
+Signals in 1992. `utilityPole.transformerMount` is flagged unconfirmed —
+no country-specific source found, consistent with this dataset's practice
+of not guessing a plausible-sounding style.
+
 ## Pending
 
-- `north-africa`, `north-america`, `central-america-caribbean`,
-  `south-america` subregions are now populated (batch 07). Remaining
-  empty subregions in the taxonomy: none currently — all defined
-  subregions have at least one country.
-- **Manual review of `culturalMarkers`** for all 90 countries above with
+- `south-asia`, `middle-east`, `caucasus`, `balkans` subregions exist in
+  the taxonomy but have **no countries assigned yet**. `oceania` (the
+  subregion) likewise has none yet, though at least one Oceania country
+  will need it eventually since it's currently the only Oceania subregion.
+- **Manual review of `culturalMarkers`** for all 91 countries above with
   empty arrays (15 from batch 02 + 16 from batch 03 + 11 from batch 04 + 7
-  from batch 05 + 5 from batch 06 + 36 from batch 07) — per spec §5, this
-  field requires human judgment every time and is intentionally not
-  auto-generated.
+  from batch 05 + 5 from batch 06 + 36 from batch 07 + 1 from batch 08) —
+  per spec §5, this field requires human judgment every time and is
+  intentionally not auto-generated.
 - Countries referenced by `commonlyConfusedWith` but not yet in the dataset
   (will resolve once added): afghanistan, belarus, benin, botswana, burundi,
-  eritrea, eswatini, guinea, iran, latvia, lesotho, mali, namibia,
-  north-macedonia, russia, somalia, togo, uganda.
+  eritrea, eswatini, guinea, iran, lesotho, mali, namibia, north-macedonia,
+  russia, somalia, togo, uganda.
 - Remaining Phase 1 candidates from spec §5's example starting set: all
   added as of batch 07 (usa, brazil, argentina now present); india,
   australia, turkey remain — not yet added.

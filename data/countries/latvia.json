@@ -1,0 +1,44 @@
+{
+  "id": "latvia",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇱🇻",
+  "names": { "zh": "拉脫維亞", "en": "Latvia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Latvian", "family": "Baltic — shares this branch only with Lithuanian, the two surviving Baltic languages" }],
+    "notable": [
+      { "name": "Russian", "family": "Slavic", "note": "large minority — roughly a third of the population speaks it at home" },
+      { "name": "Latgalian", "family": "Baltic (a Latvian dialect/variety with indigenous-language recognition)", "note": "regional, mainly in eastern Latgale; occasionally appears on local signage" }
+    ],
+    "script": "Latin with diacritics"
+  },
+  "terrainTags": ["temperate-forest", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "地形平坦，森林覆蓋率高，內陸多農業平原與湖泊，波羅的海沿岸有沙灘與沙丘地形。",
+    "en": "Flat terrain with extensive forest cover, agricultural plains and lakes inland, and sandy beach/dune coastline along the Baltic Sea."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with \"LV\" code",
+      "shape": "rectangular, 520×111mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Thin bollards with a white rectangle on the front and two white circles on the back",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Latvia specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "拉脫維亞語與立陶宛語同屬波羅的語族，是現存僅有的兩種波羅的語言，與愛沙尼亞語（屬烏拉爾語系）明顯不同；境內俄語人口比例高（約三分之一在家中使用俄語），東部拉特加萊地區則有拉特加萊語（拉脫維亞語的一種變體，具原住民語言地位）偶爾出現在地方路牌上。1992年拉脫維亞加入維也納道路標誌公約，獨立後另訂新標誌系統，取代蘇聯時期沿用的舊制。",
+    "en": "Latvian and Lithuanian are the only two surviving Baltic languages, clearly distinct from Estonian (which belongs to the Uralic family). A large Russian-speaking minority remains (roughly a third of the population speaks Russian at home), and Latgalian — a Latvian variety with indigenous-language recognition in eastern Latgale — occasionally appears on local signage. Latvia acceded to the Vienna Convention on Road Signs and Signals in 1992 and developed a new post-independence sign standard, replacing the Soviet-era system still used elsewhere."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["lithuania", "estonia"],
+  "images": []
+}
