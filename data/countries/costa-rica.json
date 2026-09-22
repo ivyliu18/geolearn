@@ -1,0 +1,40 @@
+{
+  "id": "costa-rica",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇨🇷",
+  "names": { "zh": "哥斯大黎加", "en": "Costa Rica" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "中央火山山脈縱貫全國，兩側太平洋與加勒比海沿岸皆有大面積熱帶雨林與生態保護區，是中美洲生物多樣性最著名的國家。",
+    "en": "A central volcanic cordillera runs the length of the country, flanked by extensive rainforest and protected reserves on both the Pacific and Caribbean sides — Central America's best-known country for biodiversity."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text (front and rear)",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented for Costa Rica specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語；哥斯大黎加是中美洲唯一同時採用中美洲區域標誌手冊、又正式簽署維也納道路標誌公約的國家，兩套系統在實務上高度重疊（皆為 MUTCD 式圖標搭配公制單位）。",
+    "en": "Spanish is official. Costa Rica is uniquely the only Central American country that both follows the regional Central American sign manual and has formally signed the Vienna Convention on Road Signs and Signals — in practice the two systems overlap heavily (MUTCD-style pictograms with metric units)."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["nicaragua", "panama"],
+  "images": []
+}

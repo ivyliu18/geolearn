@@ -1,0 +1,46 @@
+{
+  "id": "suriname",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇸🇷",
+  "names": { "zh": "蘇利南", "en": "Suriname" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Dutch", "family": "Germanic" }],
+    "notable": [
+      { "name": "Sranan Tongo", "family": "English-based creole", "note": "widely spoken lingua franca" },
+      { "name": "Sarnami Hindustani", "family": "Indo-Aryan", "note": "descended from indentured-labor migration from British India" },
+      { "name": "Surinamese Javanese", "family": "Austronesian", "note": "descended from indentured-labor migration from Dutch-colonial Java" }
+    ],
+    "note": "The only country with Dutch as its sole official language in South America",
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "近九成國土覆蓋亞馬遜雨林，人口與農業幾乎全數集中在狹窄的北部沿海平原地帶。",
+    "en": "Nearly 90% of the country is Amazon rainforest, with population and agriculture almost entirely concentrated on a narrow northern coastal strip."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on yellow background",
+      "shape": "rectangular, 300×152mm, format P-[letter]-[4 digits]",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed — no accessible community source found; sparse Street View coverage generally",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently confirmed — inferred material only; flag as lower-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "荷蘭語為全南美洲唯一以荷語為官方語言的國家，日常通用語為以英語為基礎的斯拉南通加語；因歷史上引進印度與爪哇契約勞工，境內另有薩爾納米印地語與蘇利南爪哇語等少數族群語言。道路標誌系統明確仿照荷蘭本土的維也納公約式設計（左駕鏡射版本）。",
+    "en": "Suriname is the only country in South America with Dutch as its sole official language; Sranan Tongo, an English-based creole, serves as the everyday lingua franca. Historical indentured-labor migration from British India and Dutch Java left behind minority languages like Sarnami Hindustani and Surinamese Javanese. Its road-sign system is explicitly modeled on the Netherlands' Vienna-Convention-style design, mirrored for left-hand traffic."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["guyana", "brazil"],
+  "images": []
+}

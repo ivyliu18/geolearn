@@ -1,0 +1,44 @@
+{
+  "id": "trinidad-and-tobago",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇹🇹",
+  "names": { "zh": "千里達", "en": "Trinidad and Tobago" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [
+      { "name": "Trinidadian and Tobagonian Creole", "family": "English-lexified Creole" },
+      { "name": "Trinidadian Hindustani", "family": "Indo-Aryan", "note": "spoken by descendants of Indian indentured laborers brought 1845–1917; Indo-Trinidadians are roughly a third of the population" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "urban-dense"],
+  "terrainDescription": {
+    "zh": "特立尼達島北部山脈覆蓋熱帶雨林，鄰近委內瑞拉外海，多貝哥島地形較平緩，西部走廊（西班牙港至聖費爾南多）人口與都市化程度高。",
+    "en": "Trinidad's Northern Range holds tropical rainforest just off the Venezuelan coast, Tobago is gentler terrain, and the west-coast corridor (Port of Spain to San Fernando) is densely populated and urbanized."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white text on black, or black text on white (owner's choice, typically matched to vehicle color)",
+      "shape": "rectangular or square (2-row, common on commercial vehicles), prefix letter + series + up to 4 digits",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "前英國殖民地，靠左行駛，官方語言為英語，日常口語常見千里達/多貝哥克里奧語；1845年後大量印度契約勞工移入，形成人口比例顯著的印裔千里達社群，部分地區仍可見印地語相關文化痕跡。",
+    "en": "A former British colony that drives on the left; English is official, with Trinidadian/Tobagonian Creole common in everyday speech. Large-scale Indian indentured migration after 1845 produced a substantial Indo-Trinidadian community, leaving Hindustani-linked cultural traces in parts of the country."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["jamaica", "bahamas", "barbados"],
+  "images": []
+}

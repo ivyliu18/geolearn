@@ -1,0 +1,40 @@
+{
+  "id": "uruguay",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇺🇾",
+  "names": { "zh": "烏拉圭", "en": "Uruguay" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance", "note": "Rioplatense dialect — voseo and \"sh\"-like ll/y pronunciation, shared with Argentina" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "地形以平緩丘陵與農牧平原為主，全國幾乎沒有高山，大西洋與拉布拉他河沿岸海岸線平直。",
+    "en": "Mostly gentle rolling hills and agricultural/ranching plains, with almost no real mountains anywhere and a fairly straight Atlantic/Río de la Plata coastline."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, black text/frame; blue Mercosur band at top (mandatory since 2016)",
+      "shape": "rectangular, 400×130mm, format ABC 1234",
+      "frontRequired": true
+    },
+    "bollardStyle": "Distinctive white-fronted bollard with a rectangular reflector near the top",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Thick white wooden sign posts are common; utility poles often have a \"trident\" shape with three upward-facing bulbs at the top"
+    }
+  },
+  "historicalContext": {
+    "zh": "烏拉圭道路中線常見獨特的「三線」設計——雙黃實線中間夾雜白色虛線，這種組合在美洲其他地方少見；西班牙語為官方語言，方言與阿根廷同屬拉布拉他河口方言。",
+    "en": "Uruguayan roads often feature a distinctive triple-line pattern — double solid yellow lines with white dashes running between them — a combination rarely seen elsewhere in the Americas. Spanish is official, sharing the Rioplatense dialect with neighboring Argentina."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["argentina", "brazil"],
+  "images": []
+}

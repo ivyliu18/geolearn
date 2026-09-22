@@ -1,0 +1,42 @@
+{
+  "id": "egypt",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇪🇬",
+  "names": { "zh": "埃及", "en": "Egypt" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Modern Standard Arabic", "family": "Afro-Asiatic / Semitic" }],
+    "notable": [{ "name": "Coptic", "family": "Afro-Asiatic / Egyptian", "note": "liturgical language of the Coptic Christian minority, written in the Coptic script (derived from Greek); not used in everyday signage" }],
+    "note": "Egyptian Arabic is the most widely understood Arabic dialect across the Arab world due to Egypt's historical dominance in film/TV/media",
+    "script": "Arabic script"
+  },
+  "terrainTags": ["desert", "agricultural-plains", "coastal", "urban-dense"],
+  "terrainDescription": {
+    "zh": "國土約九成五為撒哈拉沙漠，尼羅河谷與三角洲雖僅占國土一小部分，卻集中了絕大多數人口與高度密集的農業／都市帶。",
+    "en": "About 95% of the country is Sahara desert; the Nile valley and delta occupy only a small fraction of the land area but hold the vast majority of the population in a dense agricultural and urban corridor."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "color-coded band by vehicle type (light blue = private, the most common; orange = taxi, red = truck, grey = bus/government, green = diplomatic, yellow = customs/foreign); \"EGYPT\" in English + Arabic on the colored band",
+      "shape": "rectangular, 35×17cm aluminum",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Egypt specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "現代標準阿拉伯語為官方語言，但埃及阿拉伯方言因埃及長期為阿拉伯世界影視媒體中心，成為全阿拉伯世界理解度最高的方言；科普特語僅作為科普特基督徒的禮拜用語，以源自希臘字母的科普特文書寫，日常路牌招牌並不使用。",
+    "en": "Modern Standard Arabic is the official language, but Egyptian Arabic is the most widely understood dialect across the Arab world, a legacy of Egypt's long dominance in Arabic-language film and television. Coptic survives only as a liturgical language among Coptic Christians, written in the Greek-derived Coptic script — it does not appear on everyday signage."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["libya", "sudan"],
+  "images": []
+}

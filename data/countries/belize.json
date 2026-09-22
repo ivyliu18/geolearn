@@ -1,0 +1,44 @@
+{
+  "id": "belize",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇧🇿",
+  "names": { "zh": "貝里斯", "en": "Belize" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [
+      { "name": "Spanish", "family": "Romance", "note": "widely spoken, not official" },
+      { "name": "Belizean Kriol", "family": "English-based creole", "note": "widely spoken lingua franca, not official" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "savanna"],
+  "terrainDescription": {
+    "zh": "西部與南部為馬雅山脈熱帶雨林，北部與中部有松林稀樹草原，加勒比海岸線綿長且外側有世界第二大堡礁。",
+    "en": "Rainforest covers the Maya Mountains in the west/south, with pine savanna in the north/center; a long Caribbean coastline is fringed by the world's second-largest barrier reef."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black text on white (standard); white-on-black (commercial trucks); white-on-dark-green (taxis); black-on-orange (dealers)",
+      "shape": "rectangular, 152×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not strongly documented for Belize specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "貝里斯是中美洲唯一以英語為官方語言的國家（前身為英屬宏都拉斯），車牌至今仍保留「BH」國別代碼與「C.A.」（中美洲）字樣；雖曾為英國殖民地，卻不同於多數前英屬地，靠右行駛，以配合周邊的墨西哥與瓜地馬拉。",
+    "en": "Belize is the only Central American country with English as its sole official language (formerly British Honduras) — license plates still carry the \"BH\" country code and \"C.A.\" (Central America) lettering. Despite its British colonial history, unlike most former UK territories it drives on the right, matching neighboring Mexico and Guatemala."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["guatemala"],
+  "images": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "morocco",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇲🇦",
+  "names": { "zh": "摩洛哥", "en": "Morocco" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Modern Standard Arabic", "family": "Afro-Asiatic / Semitic" },
+      { "name": "Standard Moroccan Amazigh (Tamazight)", "family": "Afro-Asiatic / Berber", "note": "official since 2011; written in the distinct Tifinagh script, seen on motorway signage since 2015" }
+    ],
+    "notable": [{ "name": "French", "family": "Romance", "note": "no official status but widely used in business/government/education; colonial-era legacy" }],
+    "script": "Arabic script (Arabic) + Tifinagh script (Tamazight) + Latin (French) — road signs are frequently bilingual or trilingual, a genuinely distinctive three-script combination"
+  },
+  "terrainTags": ["desert", "highland-mountain", "mediterranean", "coastal"],
+  "terrainDescription": {
+    "zh": "北部為地中海沿岸與里夫山脈，中央有中亞特拉斯與高亞特拉斯山脈縱貫，南部與東部逐漸過渡為撒哈拉沙漠。",
+    "en": "A Mediterranean coast and the Rif mountains in the north, the Middle and High Atlas ranges running through the center, transitioning to Sahara desert in the south and east."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text (changed from dark-blue text under a 2019 decree to align with European/Maghreb practice)",
+      "shape": "rectangular, European (EU) size",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Morocco specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "摩洛哥路牌常見阿拉伯語、法語、塔馬齊格特語（柏柏爾語）三語並列，塔馬齊格特語自2015年起在高速公路標誌上採用獨特的提非納字母（Tifinagh），是全世界少見在道路標誌上使用此文字系統的國家。",
+    "en": "Moroccan road signs commonly appear in Arabic, French, and Tamazight (Berber) together; since 2015, Tamazight has used the distinctive Tifinagh script on motorway signage — one of the very few places in the world where this script appears on road infrastructure."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["algeria", "tunisia"],
+  "images": []
+}

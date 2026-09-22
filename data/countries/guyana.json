@@ -1,0 +1,42 @@
+{
+  "id": "guyana",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇬🇾",
+  "names": { "zh": "蓋亞那", "en": "Guyana" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Guyanese Creole", "family": "English-based creole", "note": "widely spoken in everyday life" }],
+    "note": "The only country with English as its sole official language on mainland South America",
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "savanna"],
+  "terrainDescription": {
+    "zh": "絕大部分國土為茂密雨林，人口集中於狹窄的沿海農業平原，南部則有魯普魯尼稀樹草原。",
+    "en": "The vast majority of the country is dense rainforest, with population concentrated on a narrow coastal agricultural strip and savanna (the Rupununi) in the south."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "black background, white text (standard); yellow background/black text (diplomatic); white background/red text (dealer)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed — no accessible community source found; sparse Street View coverage generally",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently confirmed — inferred material only; flag as lower-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "蓋亞那是南美洲大陸唯一以英語為官方語言的國家，也與蘇利南並列全南美僅有的兩個靠左行駛國家——皆為英國/荷蘭殖民歷史遺留，與周邊西語系、靠右行駛鄰國形成強烈對比。",
+    "en": "Guyana is the only country on mainland South America with English as its sole official language, and — alongside Suriname — one of only two South American countries that drive on the left, a legacy of British/Dutch colonial rule that stands in sharp contrast to its Spanish-speaking, right-hand-drive neighbors."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["suriname", "venezuela"],
+  "images": []
+}

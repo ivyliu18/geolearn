@@ -1,0 +1,41 @@
+{
+  "id": "usa",
+  "continent": "north-america",
+  "subregion": "north-america",
+  "flagEmoji": "🇺🇸",
+  "names": { "zh": "美國", "en": "United States" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Spanish", "family": "Romance", "note": "large speaker population; bilingual English/Spanish signage common in border states (Southwest) and Florida" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain", "desert", "coastal", "temperate-forest", "urban-dense"],
+  "terrainDescription": {
+    "zh": "國土極為遼闊，涵蓋沙漠（西南部）、高山（洛磯山脈、阿帕拉契山脈）、大平原農業帶（中西部）、溫帶森林（東部）與都市化沿海地帶；此處僅列全國通用特徵，各州地理與氣候差異極大，區域細節待日後擴充。",
+    "en": "Vast and geographically extreme — desert in the Southwest, mountains (Rockies, Appalachians), agricultural plains across the Midwest, temperate forest in the East, and dense urban coastlines. This covers only nationwide common features; regional/state-level variation is substantial and left for future expansion."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "mile",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "design and background color are set independently by each of the 50 states (+ DC) — no single national look; black or dark text is typical but varies; this is a nationwide summary only, state-level plate design is out of scope here",
+      "shape": "rectangular, ~305×152mm; most states require rear plate only, roughly 31 states also require a front plate — varies by state, not verified to state level in this pass",
+      "frontRequired": true
+    },
+    "bollardStyle": "No single national bollard style — thin white or orange flexible delineator posts are common on highway shoulders, but design varies by state DOT; nationwide summary only, not verified state-by-state",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles with a horizontal crossarm carrying pin-type insulators are the dominant style nationwide; grey cylindrical pole-mounted single-phase transformers (\"cans\") partway up the pole are a very common, recognizable feature; regional variation (steel/concrete poles in some areas, undergrounded lines in dense cities) exists but isn't detailed here"
+    }
+  },
+  "historicalContext": {
+    "zh": "英語因英國殖民歷史成為事實上的通用語言，聯邦層級並無法定官方語言；西班牙語人口持續增長，尤其在西南與南部各州，部分地區可見英西雙語路牌。",
+    "en": "English became the de facto lingua franca through British colonial history; there is no federally codified official language. The Spanish-speaking population continues to grow, especially in the Southwest and South, producing bilingual English/Spanish signage in some areas."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["canada", "mexico"],
+  "images": []
+}

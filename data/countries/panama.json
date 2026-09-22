@@ -1,0 +1,41 @@
+{
+  "id": "panama",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇵🇦",
+  "names": { "zh": "巴拿馬", "en": "Panama" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [{ "name": "Indigenous languages (Ngäbere, Guna, Emberá, and others)", "family": "various (Chibchan and other families)", "note": "spoken within several indigenous comarcas (autonomous territories)" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "地峽地形狹長，巴拿馬運河橫貫其間，兩側太平洋與加勒比海皆有海岸線，東部達連省是中美洲最大片未開發熱帶雨林。",
+    "en": "A narrow isthmus bisected by the Panama Canal, with coastline on both the Pacific and Caribbean; the eastern Darién province holds Central America's largest expanse of undeveloped rainforest."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, black text",
+      "shape": "rectangular, 300×150mm (North American standard)",
+      "frontRequired": false
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented for Panama specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語，境內有多個原住民自治區（如恩格貝、庫納）保有自身語言；巴拿馬不使用中美洲共通的區域標誌手冊，而是自成一套系統，但因巴拿馬運河區歷史上長期由美國管理，道路標誌設計仍深受美式 MUTCD 影響，距離以公里計算。",
+    "en": "Spanish is official, with several indigenous comarcas (autonomous territories, e.g. Ngäbe-Buglé, Guna Yala) retaining their own languages. Panama doesn't follow the shared Central American regional sign manual, running its own separate system instead — but decades of US administration of the Panama Canal Zone left it heavily MUTCD-influenced in practice, with distances in kilometers."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["costa-rica"],
+  "images": []
+}

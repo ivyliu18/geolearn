@@ -1,0 +1,44 @@
+{
+  "id": "peru",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇵🇪",
+  "names": { "zh": "秘魯", "en": "Peru" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [
+      { "name": "Quechua", "family": "Quechuan", "note": "co-official in areas where it predominates (Art. 48 of the Constitution); Peru was the first country to recognize Quechua as official, in 1975" },
+      { "name": "Aymara", "family": "Aymaran", "note": "co-official in areas where it predominates" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "highland-mountain", "rainforest"],
+  "terrainDescription": {
+    "zh": "西部為狹長沙漠海岸，中部安地斯山脈縱貫全國，東部則降入亞馬遜雨林盆地——三種截然不同的地形帶並存。",
+    "en": "A narrow desert coastline in the west, the Andes running through the center, and Amazon rainforest lowlands in the east — three starkly different terrain bands in one country."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, black text",
+      "shape": "rectangular, 150×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "\"Cigarette\"-shaped bollards, sometimes with black stripes; sign posts are distinctively black-and-white striped and often set into a raised solid-concrete base — one of Peru's most reliable visual clues",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Poles distinguished by three arms extending outward from the shaft"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙語為全國官方語言，但根據憲法第48條，克丘亞語與艾馬拉語在其主要分布地區具共同官方地位；秘魯也是1975年全球第一個將克丘亞語列為官方語言的國家。",
+    "en": "Spanish is the national official language, but Quechua and Aymara are co-official in the areas where they predominate under Article 48 of the Constitution; Peru was also the first country in the world to recognize Quechua as an official language, in 1975."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["ecuador", "bolivia", "colombia"],
+  "images": []
+}

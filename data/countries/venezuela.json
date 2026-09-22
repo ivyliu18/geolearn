@@ -1,0 +1,41 @@
+{
+  "id": "venezuela",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇻🇪",
+  "names": { "zh": "委內瑞拉", "en": "Venezuela" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "note": "The constitution also recognizes over 40 indigenous languages as official for use by their own peoples",
+    "script": "Latin"
+  },
+  "terrainTags": ["savanna", "highland-mountain", "rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "中部為亞諾斯大草原，安地斯山脈支脈延伸至西北部，南部與東南部進入亞馬遜/奧里諾科雨林區，北部則有加勒比海岸線。",
+    "en": "The Llanos savanna dominates the center, an Andean spur extends into the northwest, the south/southeast reaches into Amazon/Orinoco rainforest, and a Caribbean coastline runs along the north."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, black text (standard); yellow (provisional), green (police), orange (traffic corps), red (diplomatic)",
+      "shape": "rectangular, 300×150mm, format AB123CD",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed — no accessible community source found for Venezuela specifically",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed — inferred material only, consistent with the regional Andean/Spanish-speaking South American norm; flag as lower-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙語為官方語言，憲法承認逾40種原住民語言在其族群範圍內具官方地位；道路標誌系統採用《委內瑞拉交通管制統一裝置手冊》，明確以美國 MUTCD 為藍本。",
+    "en": "Spanish is the official language; the constitution recognizes over 40 indigenous languages as official for use by their own peoples. The road-sign system is governed by a manual explicitly modeled on the US MUTCD."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["colombia", "guyana", "brazil"],
+  "images": []
+}

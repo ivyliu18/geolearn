@@ -1,0 +1,40 @@
+{
+  "id": "dominican-republic",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇩🇴",
+  "names": { "zh": "多明尼加", "en": "Dominican Republic" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "中央山脈縱貫全境，皮科杜阿爾特峰為加勒比海地區最高峰，北部西寶谷地是主要農業平原，沿海地帶多海灘與度假開發。",
+    "en": "The Cordillera Central runs through the country, with Pico Duarte as the highest peak in the Caribbean; the northern Cibao valley is the main agricultural plain, and the coastline features extensive beaches and resort development."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black text on yellow background (gradient white-to-yellow); \"DOM\" international code shown on the rear in a white oval when traveling abroad",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "多明尼加與海地同處伊斯帕尼奧拉島，卻是語言差異極大的鄰國對照組：多明尼加使用西班牙語，海地官方語言則是法語與海地克里奧語（與法語不能互通），兩國語言系屬完全不同，是「同島不同語」的經典案例。多明尼加道路標誌系統融合歐式（維也納公約）與美式標誌，並非單一標準。",
+    "en": "The Dominican Republic and Haiti share the island of Hispaniola yet stand as a striking language-contrast pair: the Dominican Republic uses Spanish, while Haiti's official languages are French and Haitian Creole (not mutually intelligible with French) — a classic same-island, different-language case. Its road-sign system blends European (Vienna Convention) and American conventions rather than following a single standard."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["haiti", "cuba"],
+  "images": []
+}

@@ -1,0 +1,44 @@
+{
+  "id": "nicaragua",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇳🇮",
+  "names": { "zh": "尼加拉瓜", "en": "Nicaragua" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [
+      { "name": "Miskito", "family": "Misumalpan", "note": "co-official on the Caribbean (Mosquito) coast autonomous regions" },
+      { "name": "Nicaraguan Creole English", "family": "English-based creole", "note": "also spoken on the Caribbean coast" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "中美洲面積最大的國家，西部為火山鏈與尼加拉瓜大湖農業帶，東部加勒比海岸（莫斯基提亞）則是廣大低地熱帶雨林。",
+    "en": "Central America's largest country by area; a volcanic chain and the agricultural belt around Lake Nicaragua dominate the west, while the eastern Caribbean coast (La Mosquitia) is extensive lowland rainforest."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, dark text; map of Nicaragua in the background",
+      "shape": "rectangular, 152×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented for Nicaragua specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語，但加勒比海岸自治區的米斯基托語與尼加拉瓜克里奧英語具有地區官方地位，是西班牙語系中美洲國家中少見的東岸語言飛地；道路標誌採用中美洲共通的 MUTCD 式區域標準，距離以公里計算。",
+    "en": "Spanish is official, but Miskito and Nicaraguan Creole English hold regional official status in the Caribbean coast's autonomous regions — an unusual Anglophone/indigenous-language enclave within otherwise Spanish-speaking Central America. Road signage follows the shared Central American MUTCD-derived regional standard, with distances in kilometers."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["honduras", "costa-rica"],
+  "images": []
+}

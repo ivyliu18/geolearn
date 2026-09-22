@@ -1,0 +1,40 @@
+{
+  "id": "chile",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇨🇱",
+  "names": { "zh": "智利", "en": "Chile" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["desert", "highland-mountain", "temperate-forest", "coastal"],
+  "terrainDescription": {
+    "zh": "國土狹長，北部為全球最乾燥的阿塔卡馬沙漠，中東側緊鄰安地斯山脈，南部巴塔哥尼亞則轉為溫帶森林與峽灣地形。",
+    "en": "A famously long, narrow country: the Atacama Desert (one of the driest places on Earth) dominates the north, the Andes run along the east, and the south turns into temperate forest and fjords in Patagonia."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background (private vehicles); orange background (commercial/taxi)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Spanish-style bollards: white reflector on the front, yellow-orange reflector on the back — though not very commonly seen overall",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles with indents on both sides are common; wooden poles also fairly common"
+    }
+  },
+  "historicalContext": {
+    "zh": "智利的道路標誌手冊《Manual de Señalización de Tránsito》同時參考美國 MUTCD 系統與維也納道路標誌公約，是罕見的混合案例；智利也是南美洲唯一內外車道分向線皆採白色（而非黃色）的國家，是相當可靠的辨識線索。",
+    "en": "Chile's official road-sign manual explicitly draws on both the US MUTCD system and the Vienna Convention on Road Signs and Signals — a genuine hybrid case, unlike most of its neighbors. Chile is also the only South American country that uses white (not yellow) for both its center and outer road lines — a fairly reliable identifying clue."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["argentina", "bolivia", "peru"],
+  "images": []
+}

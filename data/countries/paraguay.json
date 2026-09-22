@@ -1,0 +1,44 @@
+{
+  "id": "paraguay",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇵🇾",
+  "names": { "zh": "巴拉圭", "en": "Paraguay" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Spanish", "family": "Romance" },
+      { "name": "Guaraní", "family": "Tupian (indigenous)" }
+    ],
+    "note": "Paraguay is the only country in the Americas where an indigenous language (Guaraní) remains a majority daily language — roughly 70% of the population aged 5+ speaks it daily, not merely as a symbolic minority-recognition language",
+    "script": "Latin"
+  },
+  "terrainTags": ["savanna", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "東部為農業與牧草平原，西部查科地區則是乾燥的稀樹草原與灌木林，全國地勢普遍平坦。",
+    "en": "The east is agricultural/ranching plains, while the western Chaco region is dry savanna and scrubland; the country overall is quite flat."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, black text/frame; blue Mercosur band at top (adopted July 2019)",
+      "shape": "rectangular, format Mercosur-standard",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not strongly documented in available sources — treat as unconfirmed rather than guessed",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented specifically for Paraguay — inferred regional similarity to neighboring countries' concrete poles, lower confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "巴拉圭是美洲唯一原住民語言（瓜拉尼語）仍為多數人口日常語言的國家——約七成五歲以上人口日常使用瓜拉尼語，並非僅具象徵性的少數承認語言；巴拉圭道路標誌手冊參考美國 MUTCD、墨西哥、中美洲、哥倫比亞與智利等多方標準，屬混合系統。",
+    "en": "Paraguay is the only country in the Americas where an indigenous language, Guaraní, remains a majority daily language — roughly 70% of the population aged 5+ speaks it daily. Paraguay's road-sign manual draws on the US MUTCD, Mexico, Central America, Colombia, and Chile — a genuine hybrid system rather than a pure Vienna Convention design."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["argentina", "bolivia", "brazil"],
+  "images": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "brazil",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇧🇷",
+  "names": { "zh": "巴西", "en": "Brazil" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Portuguese", "family": "Romance" }],
+    "note": "Brazil is the only Portuguese-speaking country in Latin America — every neighboring country was colonized by Spain and speaks Spanish, while Brazil was colonized by Portugal under the 1494 Treaty of Tordesillas, which split South America between the two colonial powers along a north-south line",
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "savanna", "coastal", "urban-dense"],
+  "terrainDescription": {
+    "zh": "北部為亞馬遜雨林，中西部為塞拉多莽原，東南沿海則是高度都市化的人口聚集帶。",
+    "en": "The Amazon rainforest dominates the north, the Cerrado savanna covers the center-west, and the southeast coast is a densely urbanized population belt."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; blue Mercosur band with flag + \"BRASIL\" at top (standard since 2018)",
+      "shape": "rectangular, 400×130mm, format ABC1234",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not strongly documented in available sources — community references are thin on a single standardized Brazilian bollard style; treat as lower-confidence",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Distinctive \"ladder\" shape with rung-like indents/holes concentrated in the lower portion of the pole (Nigeria's similarly-nicknamed \"ladder poles\" are visually similar but reportedly lack through-holes — a useful cross-country differentiator already noted on Nigeria's own record in this dataset)"
+    }
+  },
+  "historicalContext": {
+    "zh": "巴西是拉丁美洲唯一以葡萄牙語為官方語言的國家——鄰國全數為西班牙殖民地並使用西班牙語，這項語言分野源自1494年《托德西利亞斯條約》，該條約將南美洲以一條南北分界線劃分給葡萄牙與西班牙兩個殖民強權。",
+    "en": "Brazil is the only Portuguese-speaking country in Latin America — every neighboring country was a Spanish colony and speaks Spanish. This linguistic divide traces back to the 1494 Treaty of Tordesillas, which split South America between Portugal and Spain along a north-south line."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["paraguay", "uruguay", "argentina"],
+  "images": []
+}

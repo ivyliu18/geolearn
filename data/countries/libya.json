@@ -1,0 +1,41 @@
+{
+  "id": "libya",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇱🇾",
+  "names": { "zh": "利比亞", "en": "Libya" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Arabic", "family": "Afro-Asiatic / Semitic" }],
+    "notable": [{ "name": "Italian", "family": "Romance", "note": "colonial-era legacy language, largely faded from everyday use but reintroduced as an elective school subject since the 2020s" }],
+    "script": "Arabic script"
+  },
+  "terrainTags": ["desert", "mediterranean", "coastal"],
+  "terrainDescription": {
+    "zh": "全境約九成為撒哈拉沙漠，人口幾乎全數集中在狹窄的地中海沿岸地帶。",
+    "en": "Roughly 90% of the country is Sahara desert, with nearly the entire population concentrated along a narrow Mediterranean coastal strip."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, black text; Arabic country name on the left side since a 1976 redesign",
+      "shape": "rectangular, European size",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Libya specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "阿拉伯語為官方語言，義大利語曾因殖民歷史在都市地區留下影響，但日常使用已大幅減少；境內另有塔馬哈克、納富西等柏柏爾語族的少數語言社群。",
+    "en": "Arabic is the official language; Italian left a historical linguistic mark in urban areas from the colonial era, though everyday use has faded considerably. Minority Berber-language communities (Tamahaq, Nafusi, and others) also exist within the country."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["tunisia", "egypt"],
+  "images": []
+}

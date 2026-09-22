@@ -1,0 +1,43 @@
+{
+  "id": "haiti",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇭🇹",
+  "names": { "zh": "海地", "en": "Haiti" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "French", "family": "Romance" },
+      { "name": "Haitian Creole", "family": "French-lexified Creole (grammar rooted in West African Volta-Congo languages, e.g. Fongbe)" }
+    ],
+    "note": "French and Haitian Creole are both constitutionally official, but Creole is the only language virtually all Haitians share; French and Creole are NOT mutually intelligible despite shared vocabulary roots",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "地形以山地為主（「海地」的原住民語源即意為「多山之地」），沿海平原相對狹小，森林覆蓋率因長期開發而偏低。",
+    "en": "Predominantly mountainous — the country's indigenous Taíno name literally means \"land of mountains\" — with relatively narrow coastal plains and low forest cover after long-term land clearing."
+  },
+  "roadInfra": {
+    "centerLineColor": "none",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black characters on dark blue background with a map of Haiti; \"HAÏTI\" on the left, \"La perle des Antilles\" at the bottom (since 2014)",
+      "shape": "rectangular, 150×300mm (US-standard size)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Functional road markings/signage are largely absent nationwide — not a usable identification clue in practice",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "海地與多明尼加共和國同處伊斯帕尼奧拉島，卻是語言差異極大的鄰國對照組：海地官方語言為法語與海地克里奧語（法語詞彙、西非文法結構的克里奧語，與法語彼此不能互通），多明尼加則使用西班牙語，兩國語言系屬完全不同，是「同島不同語」的經典案例。境內道路標誌與標線系統相當不完整，多數路段難以辨識車道線。",
+    "en": "Haiti and the Dominican Republic share the island of Hispaniola yet stand as a striking language-contrast pair: Haiti's official languages are French and Haitian Creole (a French-vocabulary, West-African-grammar Creole not mutually intelligible with French), while the Dominican Republic uses Spanish — a classic same-island, different-language case. Road markings and signage are largely incomplete nationwide, with lane lines indistinguishable on most stretches of road."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["dominican-republic"],
+  "images": []
+}

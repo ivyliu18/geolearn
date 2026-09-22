@@ -1,0 +1,40 @@
+{
+  "id": "el-salvador",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇸🇻",
+  "names": { "zh": "薩爾瓦多", "en": "El Salvador" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "中美洲面積最小、人口密度最高的國家，境內火山鏈貫穿中部，僅臨太平洋、無加勒比海岸線，沿海有狹長農業平原。",
+    "en": "Central America's smallest and most densely populated country; a volcanic chain runs through the center, and it borders only the Pacific — no Caribbean coastline — with a narrow coastal agricultural plain."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white/tan background, black text; current design features the national flag in the background",
+      "shape": "rectangular, 152×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented for El Salvador specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語，境內原住民語言使用者比例在中美洲各國中相對最低；道路標誌採用中美洲共通的 MUTCD 式區域標準，距離以公里計算。",
+    "en": "Spanish is official; indigenous-language speakers make up a comparatively small share of the population versus other Central American countries. Road signage follows the shared Central American MUTCD-derived regional standard, with distances in kilometers."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["guatemala", "honduras", "nicaragua"],
+  "images": []
+}

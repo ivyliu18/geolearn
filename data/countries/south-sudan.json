@@ -1,0 +1,45 @@
+{
+  "id": "south-sudan",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇸🇸",
+  "names": { "zh": "南蘇丹", "en": "South Sudan" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [
+      { "name": "Juba Arabic", "family": "Afro-Asiatic / Semitic (Arabic-based pidgin)", "note": "widely used lingua franca, especially in the capital" },
+      { "name": "Dinka", "family": "Nilo-Saharan", "note": "most widely spoken indigenous language" }
+    ],
+    "note": "Over 60 indigenous languages are spoken, mostly Nilo-Saharan; none has official status — English alone is the official working language",
+    "script": "Latin (official use); no single script for the many indigenous languages"
+  },
+  "terrainTags": ["savanna", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "地形以白尼羅河流域的沖積平原與稀樹草原為主，境內蘇德沼澤是世界最大的淡水濕地之一，與北方蘇丹的沙漠地形明顯不同。",
+    "en": "Dominated by White Nile floodplains and savanna, including the Sudd — one of the world's largest freshwater wetlands — in clear contrast to the desert terrain of Sudan to the north."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black text on white background; standardized \"SSD\" country code adopted in November 2017",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue; Street View coverage is also sparse",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently documented for South Sudan specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "英語自2011年起為唯一官方語言，與蘇丹以阿拉伯語／英語雙官方語言的制度形成明顯對比；境內原住民語言逾60種，多屬尼羅-撒哈拉語系，朱巴阿拉伯語（一種以阿拉伯語為基礎的混合語）在首都地區廣泛作為溝通橋樑。",
+    "en": "English has been the sole official language since 2011, a clear contrast with Sudan's Arabic/English co-official system. Over 60 indigenous languages are spoken, mostly Nilo-Saharan, with Juba Arabic (an Arabic-based pidgin) serving as a widespread lingua franca especially in the capital."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["sudan"],
+  "images": []
+}

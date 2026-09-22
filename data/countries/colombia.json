@@ -1,0 +1,41 @@
+{
+  "id": "colombia",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇨🇴",
+  "names": { "zh": "哥倫比亞", "en": "Colombia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "note": "The constitution also recognizes ~65 indigenous languages plus creoles (e.g. Palenquero, San Andrés-Providencia Creole) as official within their own territories",
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "highland-mountain", "coastal", "savanna"],
+  "terrainDescription": {
+    "zh": "安地斯山脈分成三條支脈縱貫全國，東部為亞馬遜雨林，東北部為亞諾斯大草原，並同時擁有太平洋與加勒比海兩側海岸線。",
+    "en": "Three Andean mountain ranges run through the country, with Amazon rainforest to the east, the Llanos savanna in the northeast, and coastlines on both the Pacific and Caribbean."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "black text on yellow background (private); black on white (commercial)",
+      "shape": "rectangular, format ABC·123",
+      "frontRequired": true
+    },
+    "bollardStyle": "Yellow-and-black striped poles/bollards common; sign posts often narrow and painted white; crosses sometimes visible on the backs of road signs",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Octagonal-cross-section poles occur in Colombia — rare in Latin America outside Mexico (and occasionally Ecuador)"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙語為官方語言，憲法同時承認約65種原住民語言及克里奧爾語（如帕倫克羅語）在其原生地區的官方地位；地形橫跨安地斯山、亞馬遜雨林與太平洋/加勒比海雙海岸，是南美洲地形最多樣的國家之一。",
+    "en": "Spanish is the official language, though the constitution also recognizes roughly 65 indigenous languages and creoles (like Palenquero) as official within their own territories. Terrain spans the Andes, Amazon rainforest, and coastlines on two different seas — among the most geographically diverse countries in South America."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["venezuela", "ecuador", "peru"],
+  "images": []
+}

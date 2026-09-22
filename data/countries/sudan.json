@@ -1,0 +1,43 @@
+{
+  "id": "sudan",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇸🇩",
+  "names": { "zh": "蘇丹", "en": "Sudan" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Arabic", "family": "Afro-Asiatic / Semitic" },
+      { "name": "English", "family": "Germanic", "note": "co-official; license plates have been bilingual Arabic/English since 2009" }
+    ],
+    "script": "Arabic script + Latin (English)"
+  },
+  "terrainTags": ["desert", "steppe-grassland", "savanna"],
+  "terrainDescription": {
+    "zh": "北部為努比亞沙漠與撒哈拉邊緣，中部逐漸過渡為半乾燥草原，南部近邊界地帶轉為稀樹草原。",
+    "en": "Nubian desert and Sahara fringe in the north, transitioning through semi-arid steppe in the center to savanna near the southern border."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, bilingual Arabic/English text; letter prefix indicates the issuing state (e.g. خ/KH for Khartoum)",
+      "shape": "rectangular, 32×16cm",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Sudan specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "阿拉伯語與英語同為官方語言，車牌自2009年起採阿拉伯語／英語雙語並列格式，與2011年後以英語為唯一官方語言的南蘇丹形成語言辨識上的對照。",
+    "en": "Arabic and English are both official; license plates have used a bilingual Arabic/English format since 2009 — a useful contrast with neighboring South Sudan, which has used English as its sole official language since 2011."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["south-sudan", "egypt"],
+  "images": []
+}

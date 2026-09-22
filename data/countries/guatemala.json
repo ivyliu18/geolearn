@@ -1,0 +1,41 @@
+{
+  "id": "guatemala",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇬🇹",
+  "names": { "zh": "瓜地馬拉", "en": "Guatemala" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [{ "name": "Mayan languages (K'iche', Q'eqchi', Mam, and ~18 others)", "family": "Mayan", "note": "collectively spoken by roughly 40% of the population — genuinely one of the most linguistically diverse countries in the Americas" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "中部為火山高地，人口最密集；北部佩騰省為低地熱帶雨林（馬雅文明核心區）；太平洋與加勒比海沿岸各有一小段海岸線。",
+    "en": "A volcanic highland spine dominates the densely populated center; the northern Petén department is lowland tropical rainforest (the Maya civilization's core region); short coastlines lie on both the Pacific and Caribbean."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, black text",
+      "shape": "rectangular, 152×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented; general Central American concrete-pole norms assumed but not confirmed for Guatemala specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語，但馬雅語族（如基切語、克奇語）至今仍被全國約四成人口使用，是美洲語言多樣性最高的國家之一；道路標誌系統採用中美洲共通、以美國 MUTCD 為藍本的區域標準，但距離單位使用公制公里。",
+    "en": "Spanish is official, but Mayan languages (K'iche', Q'eqchi', and others) are still spoken by roughly 40% of the population — one of the most linguistically diverse countries in the Americas. Road signs follow the shared Central American regional standard modeled on the US MUTCD, though distances use metric kilometers, not miles."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["honduras", "el-salvador"],
+  "images": []
+}

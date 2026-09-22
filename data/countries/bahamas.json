@@ -1,0 +1,41 @@
+{
+  "id": "bahamas",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇧🇸",
+  "names": { "zh": "巴哈馬", "en": "Bahamas" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Bahamian Creole", "family": "English-lexified Creole" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal"],
+  "terrainDescription": {
+    "zh": "由逾700座島嶼與2,500多座小島礁組成，地勢低平（多數不超過20公尺），以石灰岩地質與珊瑚礁地形為主，天然植被以熱帶灌叢為主。",
+    "en": "An archipelago of 700+ islands and 2,500+ cays, low-lying (mostly under 20m elevation), built on limestone and coral-reef geology, with tropical scrub as the dominant natural vegetation."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "mile",
+    "signStandard": "uk",
+    "plate": {
+      "color": "gold text on blue background (current design since 2016); Bahamian flag at the bottom",
+      "shape": "rectangular, 152×300mm (North American standard)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "前英國殖民地，靠左行駛，但因地理與觀光業與美國佛羅里達州關係密切，道路速限標誌罕見地採用英里（而非其他前英國加勒比殖民地常見的公里制），是靠左行駛卻使用英制單位的少數案例。",
+    "en": "A former British colony that drives on the left, but due to close geographic and tourism ties with Florida, speed-limit signs are unusually posted in miles rather than the kilometers common in other former British Caribbean colonies — a rare left-hand-drive-plus-imperial-units combination."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["jamaica", "trinidad-and-tobago", "barbados"],
+  "images": []
+}

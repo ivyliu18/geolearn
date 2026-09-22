@@ -1,0 +1,44 @@
+{
+  "id": "algeria",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇩🇿",
+  "names": { "zh": "阿爾及利亞", "en": "Algeria" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Modern Standard Arabic", "family": "Afro-Asiatic / Semitic" },
+      { "name": "Tamazight (Berber)", "family": "Afro-Asiatic / Berber", "note": "official since a 2016 constitutional amendment" }
+    ],
+    "notable": [{ "name": "French", "family": "Romance", "note": "no official status but a major lingua franca in media/education — Algeria is the world's second-largest Francophone country by speaker count" }],
+    "script": "Arabic script (Arabic); Latin script (French, and Tamazight is also often written in Latin outside Morocco)"
+  },
+  "terrainTags": ["desert", "highland-mountain", "mediterranean", "coastal"],
+  "terrainDescription": {
+    "zh": "絕大部分國土為撒哈拉沙漠，北部狹長的地中海沿岸與泰勒亞特拉斯山脈是主要人口聚居帶。",
+    "en": "The vast majority of the country is Sahara desert; a narrow Mediterranean coastal strip and the Tell Atlas mountains in the north hold most of the population."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white front plate with black digits; yellow rear plate with black digits — a distinctive two-tone front/rear system",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Algeria specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "阿爾及利亞語言政策歷經變化：1963年阿拉伯語成為唯一官方語言，2016年塔馬齊格特語（柏柏爾語）修憲後也取得官方地位；法語雖無官方地位，但因殖民歷史因素在媒體與教育領域仍廣泛使用。",
+    "en": "Algeria's language policy has shifted over time: Arabic became the sole official language in 1963, and a 2016 constitutional amendment gave Tamazight (Berber) official status alongside it. French holds no official status but remains widely used in media and education due to colonial-era history."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["morocco", "tunisia", "libya"],
+  "images": []
+}

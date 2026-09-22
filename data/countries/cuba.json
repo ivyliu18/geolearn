@@ -1,0 +1,40 @@
+{
+  "id": "cuba",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇨🇺",
+  "names": { "zh": "古巴", "en": "Cuba" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "地形以平原與丘陵為主，東南部有馬埃斯特拉山脈，沿海多珊瑚礁與海灘，中西部為主要甘蔗與菸草農業帶。",
+    "en": "Mostly plains and rolling hills, with the Sierra Maestra range in the southeast, coral-reef coastline, and a central-western belt of sugarcane/tobacco agriculture."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white, blue \"Euroband\" on the left with \"CUBA\" vertical",
+      "shape": "rectangular, 420×110mm (European standard, since May 2013), format 1 letter + 6 digits",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "古巴是加勒比地區唯一正式簽署維也納道路標誌公約的國家，路牌設計與歐洲系統高度一致，仍保留公約舊式圓形紅框倒三角形停車標誌（多數國家已改為八角形）。",
+    "en": "Cuba is the only Caribbean country to have formally signed the Vienna Convention on Road Signs and Signals — its sign design closely follows the European system, still using the convention's older circular red-triangle stop sign rather than the octagonal shape most countries have since adopted."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["dominican-republic"],
+  "images": []
+}

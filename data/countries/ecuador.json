@@ -1,0 +1,44 @@
+{
+  "id": "ecuador",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇪🇨",
+  "names": { "zh": "厄瓜多", "en": "Ecuador" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [
+      { "name": "Kichwa", "family": "Quechuan", "note": "\"official language for intercultural relations\" alongside Shuar — a distinct constitutional status from Spanish, since 2008" },
+      { "name": "Shuar", "family": "Jivaroan", "note": "official language for intercultural relations" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "安地斯山脈縱貫全國中部，東側為亞馬遜雨林（奧連特地區），西側則是太平洋沿岸低地，三個地理帶在同一國土中緊密相鄰。",
+    "en": "The Andes run through the center, with Amazon rainforest (the Oriente) to the east and Pacific coastal lowlands to the west — three distinct zones packed closely together."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white/silver background, black text (private); orange (commercial); gold (government); yellow (motorcycles)",
+      "shape": "rectangular, 154×404mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Round bollards with two red stripes, or flat bollards with two red reflectors on a black background",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "A distinctive \"ladder pole\" variant with numerous small step-like indents is near-unique to Ecuador within Latin America, alongside more generic round concrete poles; double guardrails are also unusually frequent here"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙語為官方語言，2008年新憲法賦予克丘亞語（厄瓜多稱 Kichwa）與舒阿爾語「跨文化關係官方語言」的特殊地位，與西班牙語的官方地位性質不同；厄瓜多曾於1968年簽署維也納道路標誌公約但從未正式批准，實際路牌設計仍偏向美式風格。",
+    "en": "Spanish is the official language; the 2008 constitution gave Kichwa (Ecuador's term for Quechua) and Shuar the distinct status of \"official languages for intercultural relations,\" different in kind from Spanish's official status. Ecuador signed the Vienna Convention on Road Signs and Signals in 1968 but never ratified it — in practice, its road-sign design leans American (MUTCD-style)."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["peru", "colombia"],
+  "images": []
+}

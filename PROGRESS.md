@@ -3,7 +3,7 @@
 Tracks `/data/countries/*.json` completion against `geolearn-africa-spec.md` §5
 (Phase 1 rollout). Update this file whenever a batch of countries is inserted.
 
-## Done (62 countries)
+## Done (98 countries)
 
 ### Batch 01 — `phase1-batch-01.md`
 | id | continent/subregion | culturalMarkers |
@@ -266,21 +266,124 @@ Weakest-sourced fields (flagged honestly in the JSON text, not invented):
 - **iceland**, **sweden**: `utilityPole.transformerMount` inferred from
   general Nordic wooden-pole norms rather than country-specific sources.
 
+### Batch 07 — North Africa, North America, Central America & Caribbean, South America (36 countries, ad hoc request, no batch file)
+
+| id | continent/subregion | culturalMarkers |
+|---|---|---|
+| morocco | africa / north-africa | empty — needs manual review |
+| algeria | africa / north-africa | empty — needs manual review |
+| tunisia | africa / north-africa | empty — needs manual review |
+| libya | africa / north-africa | empty — needs manual review |
+| egypt | africa / north-africa | empty — needs manual review |
+| sudan | africa / north-africa | empty — needs manual review |
+| south-sudan | africa / north-africa | empty — needs manual review |
+| usa | north-america / north-america | empty — needs manual review |
+| canada | north-america / north-america | empty — needs manual review |
+| mexico | north-america / north-america | empty — needs manual review |
+| guatemala | north-america / central-america-caribbean | empty — needs manual review |
+| belize | north-america / central-america-caribbean | empty — needs manual review |
+| honduras | north-america / central-america-caribbean | empty — needs manual review |
+| el-salvador | north-america / central-america-caribbean | empty — needs manual review |
+| nicaragua | north-america / central-america-caribbean | empty — needs manual review |
+| costa-rica | north-america / central-america-caribbean | empty — needs manual review |
+| panama | north-america / central-america-caribbean | empty — needs manual review |
+| cuba | north-america / central-america-caribbean | empty — needs manual review |
+| jamaica | north-america / central-america-caribbean | empty — needs manual review |
+| haiti | north-america / central-america-caribbean | empty — needs manual review |
+| dominican-republic | north-america / central-america-caribbean | empty — needs manual review |
+| bahamas | north-america / central-america-caribbean | empty — needs manual review |
+| trinidad-and-tobago | north-america / central-america-caribbean | empty — needs manual review |
+| barbados | north-america / central-america-caribbean | empty — needs manual review |
+| brazil | south-america / south-america | empty — needs manual review |
+| argentina | south-america / south-america | empty — needs manual review |
+| chile | south-america / south-america | empty — needs manual review |
+| uruguay | south-america / south-america | empty — needs manual review |
+| paraguay | south-america / south-america | empty — needs manual review |
+| bolivia | south-america / south-america | empty — needs manual review |
+| peru | south-america / south-america | empty — needs manual review |
+| colombia | south-america / south-america | empty — needs manual review |
+| ecuador | south-america / south-america | empty — needs manual review |
+| venezuela | south-america / south-america | empty — needs manual review |
+| guyana | south-america / south-america | empty — needs manual review |
+| suriname | south-america / south-america | empty — needs manual review |
+
+Researched via six parallel fork agents (North Africa; USA/Canada/Mexico;
+Central America mainland; Caribbean islands; South America — Brazil/
+Argentina/Chile/Uruguay/Paraguay/Bolivia; South America — Peru/Colombia/
+Ecuador/Venezuela/Guyana/Suriname) — verified 2026-09-22. Sources: Wikipedia
+"Vehicle registration plates of X" and "Road signs in X" pages, Vienna
+Convention on Road Signs and Signals (1968) party status, national traffic
+law/constitutions, plonkit.net/geometas.com for bollard/pole visual details.
+Multiple forks hit this session's WebSearch quota mid-task and fell back to
+WebFetch on Wikipedia directly — flagged per-field below where that made a
+fact thinner than usual, not hidden.
+
+**Instructed special-case handling, confirmed present in the JSON text
+itself (not just noted to the user):**
+- **North Africa historicalContext** (all 7) is deliberately restricted to
+  language/script/geography facts — no mention of contemporary politics,
+  civil war, or conflict, per explicit instruction. Language-policy facts
+  (Arabization, Berber/Tamazight official status, Sudan/South Sudan's
+  Arabic-vs-English split) are framed as linguistic history, not politics.
+- **Haiti ↔ Dominican Republic**: both countries' `historicalContext`
+  explicitly names the other and states the language contrast (Haiti:
+  French + French-lexified Haitian Creole, not mutually intelligible with
+  French; Dominican Republic: Spanish) despite sharing Hispaniola.
+- **Brazil**: `language.note` and `historicalContext` explicitly contrast
+  Brazil's Portuguese against the Spanish spoken by the rest of Latin
+  America, tracing it to the 1494 Treaty of Tordesillas.
+- **USA/Canada/Mexico**: `terrainDescription` and `roadInfra.plate`/
+  `bollardStyle` text explicitly states these are nationwide/common-
+  denominator summaries only, with state/province-level detail deferred —
+  e.g. "此處僅列全國通用特徵，各州/省差異極大，區域細節待日後擴充" appears
+  literally in the JSON, not just as a note to the user.
+
+**Other notable findings:**
+- Vienna Convention party status is genuinely mixed across this batch and
+  was checked per-country rather than assumed: Morocco/Tunisia/Egypt/Cuba/
+  Brazil/Costa Rica/Suriname are confirmed parties; Algeria/Libya/Sudan/
+  South Sudan/USA/Canada/Mexico/most of Central America/Chile/Uruguay/
+  Paraguay/Bolivia are not (classified `"us-mutcd"` or `"other"` as
+  appropriate — several countries' own official sign manuals explicitly
+  cite MUTCD influence, e.g. Chile, Mexico, most of Central America).
+- **Belize** is the only Central American country with English as its sole
+  official language (former British Honduras) yet drives on the **right**
+  (unlike most former UK colonies) to match neighboring Mexico/Guatemala.
+- **Guyana and Suriname** are the two South American exceptions: Guyana
+  (English-official) and Suriname (Dutch-official) both drive on the
+  **left** — the only left-hand-drive countries on the mainland continent.
+- Jamaica/Bahamas/Trinidad and Tobago/Barbados (former British Caribbean)
+  all drive left; Cuba/Haiti/Dominican Republic drive right.
+- Paraguay (Guaraní) and Bolivia (37 constitutionally recognized languages)
+  stand out for unusually strong indigenous-language co-officiality.
+
+**Weakest-sourced fields** (flagged honestly in the JSON text, not
+invented): `bollardStyle` and/or `utilityPole` are unconfirmed for most of
+the Caribbean (cuba, jamaica, haiti, dominican-republic, bahamas,
+trinidad-and-tobago, barbados), most of Central America (all 7 — thin
+regional documentation overall), Venezuela, Guyana, Suriname, Paraguay, and
+all 7 North African countries — these fields say so explicitly rather than
+guessing a plausible-sounding style. South Sudan's Street View coverage is
+noted as essentially nonexistent. Panama's `frontRequired: false` and
+Ecuador's `signStandard` (`"us-mutcd"` despite unratified Vienna signature)
+are judgment calls worth a second look later.
+
 ## Pending
 
 - `north-africa`, `north-america`, `central-america-caribbean`,
-  `south-america` subregions exist in the taxonomy but have **no countries
-  assigned yet** — added ahead of `batch-europe-africa-americas.md`, not
-  yet processed. (`western-europe`, `southern-europe`, and
-  `northern-europe` are now populated — see batches 04–06.)
-- **Manual review of `culturalMarkers`** for all 54 countries above with
+  `south-america` subregions are now populated (batch 07). Remaining
+  empty subregions in the taxonomy: none currently — all defined
+  subregions have at least one country.
+- **Manual review of `culturalMarkers`** for all 90 countries above with
   empty arrays (15 from batch 02 + 16 from batch 03 + 11 from batch 04 + 7
-  from batch 05 + 5 from batch 06) — per spec §5, this field requires human
-  judgment every time and is intentionally not auto-generated.
+  from batch 05 + 5 from batch 06 + 36 from batch 07) — per spec §5, this
+  field requires human judgment every time and is intentionally not
+  auto-generated.
 - Countries referenced by `commonlyConfusedWith` but not yet in the dataset
   (will resolve once added): afghanistan, belarus, benin, botswana, burundi,
   eritrea, eswatini, guinea, iran, latvia, lesotho, mali, namibia,
   north-macedonia, russia, somalia, togo, uganda.
-- Remaining Phase 1 candidates from spec §5's example starting set not yet
-  added: usa, brazil, india, australia, turkey, argentina.
+- Remaining Phase 1 candidates from spec §5's example starting set: all
+  added as of batch 07 (usa, brazil, argentina now present); india,
+  australia, turkey remain — not yet added.
 - Phase 2/3 (remaining countries per continent, long-tail) — not started.

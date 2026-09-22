@@ -1,0 +1,45 @@
+{
+  "id": "bolivia",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇧🇴",
+  "names": { "zh": "玻利維亞", "en": "Bolivia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [
+      { "name": "Quechua", "family": "Quechuan", "note": "~2.4 million speakers" },
+      { "name": "Aymara", "family": "Aymaran", "note": "~1.5 million speakers" }
+    ],
+    "note": "Bolivia's 2009 constitution recognizes 37 official languages total (Spanish + 36 indigenous languages) — an unusually broad constitutional list, though only Quechua and Aymara have large speaker populations",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "西部為安地斯高原（Altiplano），東部低地則轉為亞馬遜雨林邊緣與農業平原，地形高度差極大。",
+    "en": "The western Altiplano is high Andean plateau, while the eastern lowlands transition into Amazon rainforest fringe and agricultural plains — an extreme range of elevation within one country."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, blue text (distinctive — not black)",
+      "shape": "rectangular, 300×152mm, format 1234ABC",
+      "frontRequired": true
+    },
+    "bollardStyle": "Rare; white cylindrical bollards with either a red ring or red-and-yellow squares when present",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Sign posts are often thick, unpainted wood; sign color/format is notably inconsistent nationally rather than following one standard"
+    }
+  },
+  "historicalContext": {
+    "zh": "玻利維亞2009年憲法承認37種官方語言（西班牙語加36種原住民語言），數量在全球憲法中相當罕見，但實際上僅蓋丘亞語與艾馬拉語擁有大量使用人口；道路標誌色彩與格式全國不一致，並非採用單一標準。",
+    "en": "Bolivia's 2009 constitution recognizes 37 official languages (Spanish plus 36 indigenous languages) — an unusually broad list by global constitutional standards, though only Quechua and Aymara have large speaker populations in practice. Road-sign color and format are notably inconsistent nationwide rather than following one unified standard."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["peru", "paraguay", "chile"],
+  "images": []
+}

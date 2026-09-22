@@ -1,0 +1,41 @@
+{
+  "id": "barbados",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇧🇧",
+  "names": { "zh": "巴貝多", "en": "Barbados" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Bajan Creole", "family": "English-lexified Creole" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "urban-dense"],
+  "terrainDescription": {
+    "zh": "地勢以平緩珊瑚石灰岩台地為主，僅東北部蘇格蘭區地形較崎嶇（最高點希拉比山僅340公尺），全島人口密度在加勒比地區數一數二高。",
+    "en": "Mostly a gently rising coral-limestone plateau, with rougher terrain only in the northeastern Scotland District (the highest point, Mount Hillaby, is just 340m); population density is among the highest in the Caribbean."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white on black or black on white (front) with yellow (rear), or silver on black — owner's choice; parish-letter regional code",
+      "shape": "rectangular, format 1-2 letters + up to 4 digits",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "前英國殖民地，靠左行駛，官方語言為英語，日常口語為巴貝多土語（Bajan Creole）；車牌字母代表車主居住的教區，人口較多的教區（如基督堂教區）採雙字母編碼。",
+    "en": "A former British colony that drives on the left; English is official, with Bajan Creole as the everyday vernacular. License plate letters denote the owner's parish of residence, with more populous parishes (e.g. Christ Church) using double-letter codes."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["jamaica", "bahamas", "trinidad-and-tobago"],
+  "images": []
+}

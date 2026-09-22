@@ -1,0 +1,41 @@
+{
+  "id": "mexico",
+  "continent": "north-america",
+  "subregion": "north-america",
+  "flagEmoji": "🇲🇽",
+  "names": { "zh": "墨西哥", "en": "Mexico" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [{ "name": "Indigenous languages (Nahuatl, Maya, Zapotec, Mixtec, and dozens more)", "family": "various — Uto-Aztecan, Mayan, Oto-Manguean, and other families", "note": "68 nationally recognized indigenous languages; federal road signage is Spanish-only, with limited regional bilingual exceptions (e.g. Spanish/Maya signage in parts of Yucatán)" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["desert", "highland-mountain", "rainforest", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "北部為沙漠地形（索諾拉、奇瓦瓦沙漠），中部為高原與馬德雷山脈，南部恰帕斯、猶加敦一帶轉為熱帶雨林，沿岸與農業平原分布各地；此處僅列全國通用特徵，各州地理差異極大，區域細節待日後擴充。",
+    "en": "Desert in the north (Sonoran, Chihuahuan), a mountainous central plateau (Sierra Madre ranges), tropical rainforest in the south (Chiapas, Yucatán), and coastal/agricultural land throughout. This covers only nationwide common features; regional/state-level variation is substantial and left for future expansion."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "design/background varies by state (32 federal entities), though a common national baseline format exists; this is a nationwide summary only, state-level plate design is out of scope here",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not strongly documented as a distinct national style in sources checked this pass; yellow-and-black striped concrete speed bumps (\"topes\") are a much more distinctive and commonly-cited Mexican road feature than bollards specifically — flagging bollardStyle as low-confidence rather than inventing detail",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Concrete poles are the most common type nationally, as in much of the rest of Latin America; wood poles also occur, more often in rural/southern areas"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙語因殖民歷史成為官方語言，但墨西哥境內原住民語言多樣性極高（官方承認68種語言），聯邦路牌僅使用西班牙語，猶加敦部分地區則有西班牙語／馬雅語雙語路牌的例外情況；墨西哥的道路標誌系統（八角形STOP/ALTO標誌、黃色菱形警示標誌）與美國MUTCD系統高度相近，是與中南美洲其他國家常見的維也納公約式標誌明顯不同之處。",
+    "en": "Spanish became the official language through colonial history, but Mexico has exceptionally high indigenous linguistic diversity (68 officially recognized languages); federal road signage is Spanish-only, with an exception in parts of Yucatán where Spanish/Maya bilingual signage appears. Mexico's road-sign system (octagonal STOP/ALTO signs, yellow diamond warning signs) closely mirrors the US MUTCD system — a notable contrast with the Vienna-Convention-style signage common elsewhere in Latin America."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["usa"],
+  "images": []
+}

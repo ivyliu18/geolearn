@@ -1,0 +1,43 @@
+{
+  "id": "canada",
+  "continent": "north-america",
+  "subregion": "north-america",
+  "flagEmoji": "🇨🇦",
+  "names": { "zh": "加拿大", "en": "Canada" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "English", "family": "Germanic" },
+      { "name": "French", "family": "Romance", "note": "co-official federally; sole official language of Quebec provincially, producing French-primary/French-only road signage there by provincial law" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["boreal-taiga", "tundra", "highland-mountain", "agricultural-plains", "coastal", "temperate-forest"],
+  "terrainDescription": {
+    "zh": "國土橫跨北美大陸，北部為苔原與極地地形，中北部為廣大針葉林帶，西部有洛磯山脈，中部草原省份為農業平原，沿海各異；此處僅列全國通用特徵，各省地理差異極大，區域細節待日後擴充。",
+    "en": "Spans the continent — Arctic tundra in the far north, vast boreal forest across the middle latitudes, the Rockies in the west, agricultural plains in the Prairie provinces, and varied coastlines. This covers only nationwide common features; regional/provincial-level variation is substantial and left for future expansion."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "design and background vary by province/territory — no single national look; this is a nationwide summary only, provincial-level plate design is out of scope here",
+      "shape": "rectangular, ~300×150mm; front-plate requirement varies by province (not verified province-by-province in this pass)",
+      "frontRequired": false
+    },
+    "bollardStyle": "No single national bollard style documented; nationwide summary only, not verified province-by-province",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles with a horizontal crossarm are dominant nationwide, broadly similar to the US style; regional variation exists but isn't detailed here"
+    }
+  },
+  "historicalContext": {
+    "zh": "英語與法語同為聯邦官方語言，是加拿大與美國最關鍵的語言辨識差異；魁北克省依省級語言法規定路牌以法語為主（部分地區僅法語），是強烈且可靠的視覺辨識線索。加拿大使用公制（公里），也是與美國（英里制）的另一項明確差異。",
+    "en": "English and French are both official at the federal level — the single most important language-based distinction from the United States. Quebec's provincial language law mandates French-primary (in places French-only) road signage, a strong and reliable visual identifier. Canada is also metric (kilometers), another clear differentiator from the mile-based US."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["usa"],
+  "images": []
+}

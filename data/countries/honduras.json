@@ -1,0 +1,44 @@
+{
+  "id": "honduras",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇭🇳",
+  "names": { "zh": "宏都拉斯", "en": "Honduras" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance" }],
+    "notable": [
+      { "name": "Garifuna", "family": "Arawakan-based creole", "note": "spoken along the Caribbean coast" },
+      { "name": "Miskito", "family": "Misumalpan", "note": "spoken in the eastern Mosquito Coast region" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "中央多山，境內大部分為山地地形；東部莫斯基提亞海岸為低地熱帶雨林；加勒比海岸線長，太平洋僅有豐塞卡灣一小段出海口。",
+    "en": "Predominantly mountainous through the interior; the eastern La Mosquitia coast is lowland rainforest; a long Caribbean coastline contrasts with just a small Pacific outlet at the Gulf of Fonseca."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "us-mutcd",
+    "plate": {
+      "color": "white background, black text; blue identification band, Honduras map outline, \"Centro América\" slogan (redesign since 2018)",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not well documented — no confirmed distinctive national style found",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not strongly documented for Honduras specifically"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方語言為西班牙語，加勒比海岸另有非裔加勒比原住民加里富納語與米斯基托語社群；道路標誌採用中美洲共通的 MUTCD 式區域標準，距離以公里計算。",
+    "en": "Spanish is official, though Afro-Indigenous Garifuna and Miskito language communities persist along the Caribbean coast. Road signage follows the shared Central American MUTCD-derived regional standard, with distances in kilometers."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["guatemala", "el-salvador", "nicaragua"],
+  "images": []
+}

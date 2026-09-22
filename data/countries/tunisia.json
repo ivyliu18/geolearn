@@ -1,0 +1,41 @@
+{
+  "id": "tunisia",
+  "continent": "africa",
+  "subregion": "north-africa",
+  "flagEmoji": "🇹🇳",
+  "names": { "zh": "突尼西亞", "en": "Tunisia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Modern Standard Arabic", "family": "Afro-Asiatic / Semitic" }],
+    "notable": [{ "name": "French", "family": "Romance", "note": "no official status but spoken by roughly half the population as a second language; used widely in business, science, and education" }],
+    "script": "Arabic script; French uses Latin"
+  },
+  "terrainTags": ["mediterranean", "desert", "agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "北部與東部沿海屬地中海型氣候，特勒平原是主要農業區，南部則逐漸轉為撒哈拉沙漠邊緣地帶。",
+    "en": "A Mediterranean climate along the north and east coasts, with the Tell region forming the main agricultural belt, transitioning to Sahara-fringe desert in the south."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white text on a black background with the Arabic word \"تونس\" (Tunisia) — Tunisia is the only African country with black license plates, a highly distinctive clue",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Tunisia specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "突尼西亞憲法明定阿拉伯語為唯一官方語言，但法語因殖民歷史因素仍是重要的社會與專業領域語言，約半數人口能以法語作為第二語言溝通；柏柏爾語僅在南部少數村落與傑爾巴島零星使用。",
+    "en": "Tunisia's constitution names Arabic as the sole official language, but French remains an important language of social prestige and professional life due to colonial history, spoken as a second language by roughly half the population. Berber survives only in a handful of southern villages and on Djerba island."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["morocco", "algeria", "libya"],
+  "images": []
+}

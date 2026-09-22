@@ -1,0 +1,40 @@
+{
+  "id": "argentina",
+  "continent": "south-america",
+  "subregion": "south-america",
+  "flagEmoji": "🇦🇷",
+  "names": { "zh": "阿根廷", "en": "Argentina" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish", "family": "Romance", "note": "Rioplatense dialect — voseo (tú replaced by vos) and a distinctive \"sh\"-like pronunciation of ll/y, shared with Uruguay" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["agricultural-plains", "steppe-grassland", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "中部為彭巴草原農業帶，南部巴塔哥尼亞轉為乾燥草原，西側安地斯山脈構成與智利的邊界。",
+    "en": "The central Pampas form a vast agricultural plain, the south (Patagonia) turns into dry steppe grassland, and the Andes run along the western border with Chile."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text/frame; blue Mercosur band at top",
+      "shape": "rectangular, 400×130mm, format AA 000 AA",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not strongly documented as a distinct bollard style; small black-and-white kilometer-marker posts (showing route number \"RN\"/\"RP\" and km count) are the more reliably documented roadside marker",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Round concrete poles commonly carrying three electricity lines in an alternating (zig-zag) pattern"
+    }
+  },
+  "historicalContext": {
+    "zh": "阿根廷雖於1968年簽署維也納道路標誌公約但未正式批准，標誌設計仍大致依循該公約的圖標系統；西班牙語為官方語言，屬拉布拉他河口方言（Rioplatense），以「vos」取代「tú」的用法與帶「sh」音的 ll/y 發音，與烏拉圭共通。",
+    "en": "Argentina signed the Vienna Convention on Road Signs and Signals in 1968 but never formally ratified it, though its sign design broadly follows the convention's pictogram system. Spanish is official, in the Rioplatense dialect — using \"vos\" instead of \"tú\" and a distinctive \"sh\"-like pronunciation of ll/y, shared with Uruguay."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["uruguay", "chile", "paraguay"],
+  "images": []
+}

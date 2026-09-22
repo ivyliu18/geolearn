@@ -1,0 +1,41 @@
+{
+  "id": "jamaica",
+  "continent": "north-america",
+  "subregion": "central-america-caribbean",
+  "flagEmoji": "🇯🇲",
+  "names": { "zh": "牙買加", "en": "Jamaica" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Jamaican Patois", "family": "English-lexified Creole", "note": "the everyday vernacular for most of the population, structurally distinct from standard English" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "rainforest", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "中東部有藍山山脈與雲霧雨林，沿海多沙灘與珊瑚礁，內陸丘陵地形起伏明顯。",
+    "en": "The Blue Mountains and cloud rainforest dominate the east-central interior, with sandy/coral coastline and markedly hilly inland terrain."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "red background/white text (private); green background/white text (commercial); yellow background/black text (government)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently confirmed this session — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "牙買加曾為英國殖民地，靠左行駛，官方語言為英語，但日常口語以牙買加土語（Patois，英語詞彙基礎的克里奧語）為主，兩者文法結構差異明顯；路牌設計融合美式（MUTCD）與歐式（維也納公約）標誌系統，並非單一標準。",
+    "en": "A former British colony that drives on the left; English is official, but everyday speech is dominated by Jamaican Patois, an English-lexified Creole with a grammar structurally distinct from standard English. Road signage blends American (MUTCD) and European (Vienna Convention) sign systems rather than following a single standard."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["bahamas", "trinidad-and-tobago", "barbados"],
+  "images": []
+}
