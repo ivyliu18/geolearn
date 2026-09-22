@@ -4,10 +4,11 @@ import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import { MapContainer, GeoJSON } from "react-leaflet";
 import type { Layer, LeafletMouseEvent, Path, StyleFunction } from "leaflet";
-import type { Feature, Geometry } from "geojson";
+import type { Feature, FeatureCollection, Geometry } from "geojson";
 import * as topojson from "topojson-client";
 import type { Topology } from "topojson-specification";
 import worldTopology from "world-atlas/countries-110m.json";
+import { unwrapAntimeridian } from "@/lib/antimeridian";
 import { useLang } from "@/lib/i18n";
 import { slugify } from "@/lib/slug";
 import styles from "./WorldMap.module.css";
@@ -37,14 +38,13 @@ export function WorldMapInner({
     [availableCountryIds],
   );
 
-  const countries = useMemo(
-    () =>
-      topojson.feature(
-        worldTopology as unknown as Topology,
-        (worldTopology as unknown as Topology).objects.countries,
-      ),
-    [],
-  );
+  const countries = useMemo(() => {
+    const collection = topojson.feature(
+      worldTopology as unknown as Topology,
+      (worldTopology as unknown as Topology).objects.countries,
+    ) as FeatureCollection<Geometry, CountryProperties>;
+    return unwrapAntimeridian(collection);
+  }, []);
 
   function onEachCountry(
     feature: Feature<Geometry, CountryProperties>,

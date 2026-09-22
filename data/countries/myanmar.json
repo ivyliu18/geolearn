@@ -1,0 +1,40 @@
+{
+  "id": "myanmar",
+  "continent": "asia",
+  "subregion": "mainland-southeast-asia",
+  "flagEmoji": "🇲🇲",
+  "names": { "zh": "緬甸", "en": "Myanmar" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Burmese", "family": "Sino-Tibetan (Lolo-Burmese)" }],
+    "script": "Burmese script — a Brahmic-derived abugida with distinctive rounded, circular letterforms (rounded to avoid tearing traditional palm-leaf manuscripts)"
+  },
+  "terrainTags": ["highland-mountain", "agricultural-plains", "coastal", "rainforest"],
+  "terrainDescription": {
+    "zh": "北部與東部為山地（撣邦高原環繞），伊洛瓦底江流域是農業核心地帶，西部與南部則有綿長的孟加拉灣／安達曼海岸線。",
+    "en": "Mountainous terrain rings the north and east (Shan Hills), the Irrawaddy river valley forms the agricultural core, and a long Bay of Bengal/Andaman coastline runs along the west and south."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white background (private vehicles, current format since July 2021); other colors by vehicle type (yellow-on-black religious, blue-on-white touring, red-on-white hire)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented Myanmar-specific bollard style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No Myanmar-specific source found for pole/transformer style — flagging as unconfirmed rather than guessing detail"
+    }
+  },
+  "historicalContext": {
+    "zh": "緬甸文字圓滾的字形源自早期書寫於脆弱貝葉手稿上的傳統——直線筆畫容易撕破葉片。值得注意的是，緬甸雖靠右行駛，但約九成車輛是日本進口的右駕二手車，因此方向盤位置在此地不是可靠的辨識線索。",
+    "en": "Burmese script's distinctive circular letterforms trace back to writing on fragile palm-leaf manuscripts, where straight lines would tear the leaf. A quirk worth knowing: Myanmar drives on the right, but roughly 90% of vehicles are secondhand right-hand-drive imports from Japan — so steering-wheel position is not a reliable clue here."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["thailand", "laos"],
+  "images": []
+}

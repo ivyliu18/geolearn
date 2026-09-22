@@ -1,0 +1,39 @@
+{
+  "id": "north-korea",
+  "continent": "asia",
+  "subregion": "east-asia",
+  "flagEmoji": "🇰🇵",
+  "names": { "zh": "北韓", "en": "North Korea" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Korean", "family": "Koreanic" }],
+    "script": "Hangul exclusively — Hanja (Chinese characters) has been officially phased out of everyday use since the 1950s, unlike South Korea"
+  },
+  "terrainTags": ["highland-mountain", "agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "地形以山地為主（尤其北部與東部），西部沿海有較集中的平原農業區",
+    "en": "Predominantly mountainous, especially in the north and east, with denser coastal agricultural plains in the west"
+  },
+  "roadInfra": {
+    "centerLineColor": "none",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "blue background/white text for most state-owned vehicles (most common on the road); yellow background/black text for private and foreign-resident vehicles; black, longer-format plates for military use",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not documented — on-the-ground photographic and Street View access is essentially nonexistent, so this isn't a usable clue in practice",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently confirmed — inferred as broadly similar to other regional Soviet/Chinese-influenced infrastructure; treat as low-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "北韓自1950年代起全面廢止漢字於日常書寫的使用，僅保留諺文（韓文字母），與南韓形成鮮明對比；由於實體踏勘與街景資料極度稀少，本頁資料信心度整體偏低。",
+    "en": "North Korea has fully phased Hanja (Chinese characters) out of everyday writing since the 1950s, using Hangul exclusively — a sharp contrast with South Korea. On-the-ground photographic/Street View data is extremely scarce, so confidence for this entry is lower overall."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["south-korea", "china"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "laos",
+  "continent": "asia",
+  "subregion": "mainland-southeast-asia",
+  "flagEmoji": "🇱🇦",
+  "names": { "zh": "寮國", "en": "Laos" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Lao", "family": "Kra-Dai (Tai-Kadai) — closely related to Thai" }],
+    "script": "Lao script — a Brahmic-derived abugida closely related to Thai script but with simpler, more rounded letterforms and fewer consonant symbols"
+  },
+  "terrainTags": ["highland-mountain", "rainforest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "寮國是內陸國，也是中南半島地形最多山的國家，湄公河河谷提供主要的低地農業帶，其餘地區森林覆蓋廣泛。",
+    "en": "Landlocked and the most mountainous country in mainland Southeast Asia, with the Mekong River valley providing the main strip of agricultural lowland and extensive forest cover elsewhere."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on orange background, two-letter prefix (vehicle type/province) + serial, province name on top",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white striped, angular (square-edged) bollards, similar in shape to Thailand's — confirm against other clues since angular bollards also appear in Sri Lanka/Philippines",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Concrete poles; no further distinctive documented detail (not as sharply characterized as Thailand's full-length-pinhole poles or Cambodia's ladder poles)"
+    }
+  },
+  "historicalContext": {
+    "zh": "寮語與泰語同屬壯侗語系，口語溝通大致可互通，但寮文字形較泰文簡化，筆畫較少、外觀也更圓潤、較不尖銳。",
+    "en": "Lao and Thai are closely related Kra-Dai languages with largely mutually intelligible spoken forms, but Lao script is visually simpler — fewer letterforms and a more rounded, less angular look than Thai."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["thailand", "vietnam"],
+  "images": []
+}

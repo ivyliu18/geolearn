@@ -1,0 +1,40 @@
+{
+  "id": "hungary",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇭🇺",
+  "names": { "zh": "匈牙利", "en": "Hungary" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Hungarian", "family": "Uralic — NOT Slavic, the one major exception in the region" }],
+    "script": "Latin with distinctive diacritics (ő, ű)"
+  },
+  "terrainTags": ["agricultural-plains"],
+  "terrainDescription": {
+    "zh": "大匈牙利平原（Puszta）為主，地形平坦",
+    "en": "Dominated by the Great Hungarian Plain (Puszta), largely flat"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, standard EU blue band with \"H\" code",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Standard European wedge-shaped bollard, red rectangular reflector on front, white on back (shared with Croatia, Bulgaria, North Macedonia)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "\"Holey poles\" — concrete poles with large holes running all the way down to ground level"
+    }
+  },
+  "historicalContext": {
+    "zh": "馬扎爾人（Magyar）約西元九世紀遷入此地，語言系屬與周邊斯拉夫、羅曼語族國家皆不同，是很獨特的語言孤島。",
+    "en": "The Magyar people settled here around the 9th century; the language family is unrelated to neighboring Slavic and Romance-speaking countries — a notable linguistic \"island.\""
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["romania", "slovakia"],
+  "images": []
+}

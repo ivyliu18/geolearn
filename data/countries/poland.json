@@ -1,0 +1,40 @@
+{
+  "id": "poland",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇵🇱",
+  "names": { "zh": "波蘭", "en": "Poland" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Polish", "family": "West Slavic" }],
+    "script": "Latin with diacritics (ł, ż, ę, ą)"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "北部平原為主，南部與斯洛伐克交界處有塔特拉山",
+    "en": "Flat plains in the north, with the Tatra mountains along the southern border with Slovakia"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, front & rear identical",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Red diagonal stripe wrapping fully around the bollard; red reflector on the front face, white on the back",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square/rectangular concrete poles with drainage holes that stop ~0.5m above ground level (unlike Hungary/Romania, where the holes run all the way down)"
+    }
+  },
+  "historicalContext": {
+    "zh": "人口組成相對單一，二戰與冷戰歷史深刻影響現代波蘭社會結構。",
+    "en": "Relatively ethnically homogeneous population; WWII and Cold War history deeply shaped modern Polish society."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["czechia", "germany"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "slovakia",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇸🇰",
+  "names": { "zh": "斯洛伐克", "en": "Slovakia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Slovak", "family": "West Slavic" }],
+    "script": "Latin with diacritics"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "喀爾巴阡山脈貫穿，山地比例高",
+    "en": "Crossed by the Carpathian mountains, largely mountainous"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, format AA-001AA since 2023 (no district code)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Orange double reflectors front / single white reflector back, same as Czechia (a newer Hungary-style red-reflector wedge bollard is appearing but still rare)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Wide, round concrete poles, often in attached pairs — same style as Czechia"
+    }
+  },
+  "historicalContext": {
+    "zh": "語言與捷克語可互相理解程度高，歷史上同屬一國。",
+    "en": "Mutually intelligible with Czech to a high degree; historically part of the same state."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["czechia", "hungary"],
+  "images": []
+}

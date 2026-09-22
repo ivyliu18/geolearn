@@ -1,0 +1,40 @@
+{
+  "id": "czechia",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇨🇿",
+  "names": { "zh": "捷克", "en": "Czechia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Czech", "family": "West Slavic — closely related to Slovak" }],
+    "script": "Latin with diacritics (č, ř, ž)"
+  },
+  "terrainTags": ["temperate-forest", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "波希米亞盆地，丘陵與森林地形",
+    "en": "Bohemian basin, hilly and forested terrain"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, serial format 1A2 3456 (regional code letter)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Orange double reflectors on the front face, single white reflector on the back — shared design with Slovakia",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Wide, round concrete poles, frequently installed in attached pairs; paired with an unusually wide Type-B guardrail profile"
+    }
+  },
+  "historicalContext": {
+    "zh": "曾與斯洛伐克同屬捷克斯洛伐克，1993年和平分離為兩國。",
+    "en": "Was united with Slovakia as Czechoslovakia until a peaceful split into two countries in 1993."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["slovakia", "poland"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "ukraine",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇺🇦",
+  "names": { "zh": "烏克蘭", "en": "Ukraine" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Ukrainian", "family": "East Slavic" }],
+    "script": "Cyrillic"
+  },
+  "terrainTags": ["agricultural-plains"],
+  "terrainDescription": {
+    "zh": "廣大平原與黑土農業帶，是歐洲重要糧倉地區",
+    "en": "Vast plains with fertile black soil — one of Europe's major agricultural breadbaskets"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; blue vertical band on the left with Ukrainian flag colors + \"UA\" code (since 2015); only Cyrillic glyphs resembling Latin letters are used",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Wide red rectangular reflector (wider than Hungary/Bulgaria/Croatia/North Macedonia's), commonly visibly worn or damaged",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Many poles have a white-painted base section; otherwise a standard grey concrete shaft"
+    }
+  },
+  "historicalContext": {
+    "zh": "與俄語同屬東斯拉夫分支，拼字與部分詞彙相近但非相同語言，需搭配路牌拼字細節區分。",
+    "en": "Shares the East Slavic branch with Russian, with similar but distinct spelling and vocabulary — distinguish via detailed sign spelling."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["russia", "belarus"],
+  "images": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "brunei",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇧🇳",
+  "names": { "zh": "汶萊", "en": "Brunei" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Malay", "family": "Austronesian" }],
+    "notable": [{ "name": "English", "family": "Germanic", "note": "widely used in business/education" }],
+    "script": "Latin (Rumi); Jawi (Arabic-derived script) also has official/ceremonial status"
+  },
+  "terrainTags": ["rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "婆羅洲島北部小國，雨林覆蓋率極高，是東南亞原始雨林保存最完整的地區之一",
+    "en": "A small nation on northern Borneo with exceptionally high rainforest cover — among the best-preserved primary rainforest in Southeast Asia"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white text on black background; format starts with \"B\" (Brunei-Muara, pre-2006) or \"K\" (Kuala Belait)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No confidently documented distinctive style found — not a reliable standalone clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No confidently documented distinctive style found — not a reliable standalone clue"
+    }
+  },
+  "historicalContext": {
+    "zh": "英國保護國歷史深遠，道路標誌字體與新加坡相同，馬來語為官方語言但爪夷文（阿拉伯字母系統）仍具官方/儀式性地位。",
+    "en": "Long history as a British protectorate; road sign typeface matches Singapore's. Malay is official, but Jawi (an Arabic-derived script) still holds official/ceremonial status."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["malaysia", "indonesia"],
+  "images": []
+}

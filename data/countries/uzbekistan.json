@@ -1,0 +1,40 @@
+{
+  "id": "uzbekistan",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇺🇿",
+  "names": { "zh": "烏茲別克", "en": "Uzbekistan" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Uzbek", "family": "Turkic" }],
+    "script": "Latin (some remaining Cyrillic signage)"
+  },
+  "terrainTags": ["desert", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "克孜勒庫姆沙漠為主，絲路綠洲城市（撒馬爾罕、布哈拉）點綴其間",
+    "en": "Dominated by the Kyzylkum desert, with Silk Road oasis cities like Samarkand and Bukhara"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white",
+      "shape": "rectangular, flag + \"UZ\" code on right side",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively-documented Uzbekistan-specific bollard style found — not a reliable standalone clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles typical of post-Soviet Central Asia; no further distinctive documented detail"
+    }
+  },
+  "historicalContext": {
+    "zh": "歷史上為絲路核心樞紐，長期多民族交流，主體為烏茲別克人（突厥系）。",
+    "en": "Historically a core Silk Road crossroads with long-standing multi-ethnic exchange; majority Uzbek (Turkic)."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["kazakhstan", "turkmenistan"],
+  "images": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "philippines",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇵🇭",
+  "names": { "zh": "菲律賓", "en": "Philippines" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Filipino", "family": "Austronesian (Tagalog-based)" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "highland-mountain", "urban-dense"],
+  "terrainDescription": {
+    "zh": "7,000多個島嶼組成，多山多火山，熱帶雨林與海岸線交錯，馬尼拉都會區高度密集",
+    "en": "An archipelago of 7,000+ islands, mountainous and volcanic, with rainforest and coastline interwoven; Metro Manila is intensely dense"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white (private); black text on yellow (public utility vehicles — buses, taxis, jeepneys)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Tall, square yellow road-marker stones (\"mojones\") are distinctively Filipino — not commonly seen elsewhere in East/Southeast Asia",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden \"crucifix\"-style crossbar is the most common pole type; a single insulator on a vertical bar attached to the pole's side is common outside the Zamboanga peninsula, where 3-insulator poletops dominate instead"
+    }
+  },
+  "historicalContext": {
+    "zh": "菲律賓曾為西班牙殖民地，1945年由靠左行駛改為靠右行駛（美國治理時期影響），是東南亞少數靠右行駛的前歐洲殖民地。",
+    "en": "A former Spanish colony, the Philippines switched from left- to right-hand traffic in 1945 under American administration — one of the few Southeast Asian ex-European colonies to drive on the right."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["indonesia", "malaysia"],
+  "images": []
+}

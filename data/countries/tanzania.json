@@ -1,0 +1,53 @@
+{
+  "id": "tanzania",
+  "continent": "africa",
+  "subregion": "east-africa",
+  "flagEmoji": "🇹🇿",
+  "names": { "zh": "坦尚尼亞", "en": "Tanzania" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Swahili", "family": "Niger-Congo / Bantu" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["savanna", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "塞倫蓋提草原、吉力馬札羅山、尚吉巴島熱帶海岸",
+    "en": "Serengeti plains, Mount Kilimanjaro, tropical Zanzibar coastline"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white front / black-on-yellow rear, format \"T 123ABC\"",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No Tanzania-specific source found; inferred by regional analogy to Kenya's concrete/wood L-shaped-crossbar poles (shared East African Community infrastructure heritage) — lower confidence than other fields"
+    }
+  },
+  "historicalContext": {
+    "zh": "史瓦希利語在坦尚尼亞被視為國族認同的核心語言，官方推廣程度高於肯亞。",
+    "en": "Swahili plays an even stronger role in national identity here than in Kenya, with heavier official promotion."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Kanga/Kitenge cloth + Zanzibar Arab/Gulf-influenced architecture",
+      "note": {
+        "zh": "Kanga／Kitenge 布料同樣常見；尚吉巴因歷史上阿曼蘇丹國統治，服飾與建築帶有較明顯的阿拉伯/波斯灣影響（如門框雕花），是與肯亞沿海略有差異的弱線索。",
+        "en": "Kanga/Kitenge cloth is common here too. Zanzibar, due to Omani Sultanate history, shows more visible Arab/Gulf influence in dress and architecture (e.g. carved door frames) — a weak differentiator from Kenya's coast."
+      },
+      "confidence": 2,
+      "caveat": "Weak — corroborate with language/plates/terrain first"
+    }
+  ],
+  "commonlyConfusedWith": ["kenya", "uganda"],
+  "images": []
+}

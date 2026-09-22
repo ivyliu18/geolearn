@@ -1,0 +1,40 @@
+{
+  "id": "estonia",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇪🇪",
+  "names": { "zh": "愛沙尼亞", "en": "Estonia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Estonian", "family": "Finnic / Uralic — unrelated to Lithuanian/Latvian, closer to Finnish" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "temperate-forest"],
+  "terrainDescription": {
+    "zh": "平坦地形，多湖泊沼澤，波羅的海沿岸",
+    "en": "Flat terrain with many lakes/wetlands, along the Baltic Sea coast"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, standard EU blue band with \"EST\" code",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Cylindrical bollard, rectangular reflector on the front and two circular reflectors on the back",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Distinctive cross-shaped (\"crucifix\") concrete pole silhouette, unlike neighboring Lithuania/Latvia; occasional wood poles too"
+    }
+  },
+  "historicalContext": {
+    "zh": "雖同屬「波羅的海三國」地理概念，愛沙尼亞語言系屬其實與立陶宛、拉脫維亞完全不同，是常見的地理迷思。",
+    "en": "Despite being grouped geographically as one of the \"Baltic states,\" Estonian is linguistically unrelated to Lithuanian/Latvian — a common misconception worth correcting."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["latvia", "finland"],
+  "images": []
+}

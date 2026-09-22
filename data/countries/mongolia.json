@@ -1,0 +1,40 @@
+{
+  "id": "mongolia",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇲🇳",
+  "names": { "zh": "蒙古", "en": "Mongolia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Mongolian", "family": "Mongolic — separate branch from Turkic" }],
+    "script": "Cyrillic (Inner Mongolia, China uses traditional vertical script)"
+  },
+  "terrainTags": ["steppe-grassland", "desert"],
+  "terrainDescription": {
+    "zh": "廣闊草原與戈壁沙漠",
+    "en": "Vast steppe and the Gobi desert"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white, red Soyombo national symbol on left",
+      "shape": "rectangular, 520×110mm, serial format 1234 AAA",
+      "frontRequired": true
+    },
+    "bollardStyle": "Distinctive white bowling-pin-shaped bollards with two red stripes near the top — a fairly unique Mongolia clue",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles often braced with supporting stone blocks at the base; white lamp posts and three-striped pedestrian-crossing signage common; strong Russian/Soviet infrastructure influence overall"
+    }
+  },
+  "historicalContext": {
+    "zh": "主體為蒙古族，歷史上以遊牧生活與帳篷（蒙古包）聚落型態著稱。",
+    "en": "Majority Mongol, with a historically nomadic lifestyle and ger (yurt) settlement patterns."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["kazakhstan", "russia"],
+  "images": []
+}

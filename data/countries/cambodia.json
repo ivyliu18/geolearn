@@ -1,0 +1,40 @@
+{
+  "id": "cambodia",
+  "continent": "asia",
+  "subregion": "mainland-southeast-asia",
+  "flagEmoji": "🇰🇭",
+  "names": { "zh": "柬埔寨", "en": "Cambodia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Khmer", "family": "Austroasiatic (Khmeric)" }],
+    "script": "Khmer script — a Brahmic-derived abugida, the longest alphabet in the world, with tall, ornate vertical strokes"
+  },
+  "terrainTags": ["agricultural-plains", "rainforest", "coastal"],
+  "terrainDescription": {
+    "zh": "洞里薩湖與湄公河氾濫平原是主要農業精華區，西南部豆蔻山脈仍保有大片雨林，另有一小段泰國灣海岸線。",
+    "en": "The Tonlé Sap lake and Mekong floodplain dominate the agricultural heartland; the Cardamom Mountains in the southwest hold significant rainforest cover, with a short stretch of Gulf of Thailand coastline."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, Latin letters + digits with province name in Khmer (top) and English (bottom)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Stone bollards, most often red-and-white striped, or red top with white base and a reflector set into the red band",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Two common types: a square \"ladder-style\" pole with indents not reaching the top or bottom, or a round pole with small holes — distinguishable from Thailand's square poles, whose pinholes run the full length"
+    }
+  },
+  "historicalContext": {
+    "zh": "高棉文字約一千多年前由南印度婆羅米系字母演變而來，書寫時單詞間不留空格，垂直筆畫高聳，雖與泰文、寮文同源，但視覺上仍可明顯區分。",
+    "en": "Khmer script, adapted from a southern Indian Brahmi-derived alphabet over a thousand years ago, has no spaces between words and tall vertical strokes that make it visually distinct from neighboring Thai and Lao scripts despite sharing the same ultimate ancestor."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["thailand", "laos", "vietnam"],
+  "images": []
+}

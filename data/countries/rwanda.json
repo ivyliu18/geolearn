@@ -1,0 +1,55 @@
+{
+  "id": "rwanda",
+  "continent": "africa",
+  "subregion": "east-africa",
+  "flagEmoji": "🇷🇼",
+  "names": { "zh": "盧安達", "en": "Rwanda" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Kinyarwanda", "family": "Niger-Congo / Bantu" },
+      { "name": "French", "family": "Romance" },
+      { "name": "English", "family": "Germanic" },
+      { "name": "Swahili", "family": "Niger-Congo / Bantu" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "「千丘之國」，地形以丘陵與火山為主，人口密度高",
+    "en": "The \"Land of a Thousand Hills\" — hilly, volcanic terrain with high population density"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white (front) / black-on-yellow (rear); format \"RXX ###X\"",
+      "shape": "rectangular, 520×110mm (Euro-standard, Belgian stamping dies)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not specifically documented; black-and-white striped curbs are noted as common (a related but distinct visual marker from bollards)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No specific source found for pole/transformer-mount style — flagging as unconfirmed"
+    }
+  },
+  "historicalContext": {
+    "zh": "1994年種族滅絕後推動國家重建與和解政策，近年城市基礎建設發展快速，不宜用路況判斷國家發展階段。",
+    "en": "Since the 1994 genocide, national reconciliation policy has driven rapid urban infrastructure development — road quality shouldn't be used to gauge development stage."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Imigongo geometric wall/craft art",
+      "note": {
+        "zh": "Imigongo（黑白紅幾何圖案的牆面/器皿裝飾藝術）是盧安達特有的傳統藝術形式，若在建築牆面或紀念品店看到，是中等強度的辨識線索。",
+        "en": "Imigongo (black/white/red geometric wall and craft art) is a distinctively Rwandan traditional art form — a medium-strength clue if visible on walls or in craft shops."
+      },
+      "confidence": 3,
+      "caveat": "Architecture/craft, not clothing — reasonably distinctive when present"
+    }
+  ],
+  "commonlyConfusedWith": ["uganda", "burundi"],
+  "images": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "singapore",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇸🇬",
+  "names": { "zh": "新加坡", "en": "Singapore" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "English", "family": "Germanic" },
+      { "name": "Mandarin Chinese", "family": "Sino-Tibetan" },
+      { "name": "Malay", "family": "Austronesian", "note": "national language" },
+      { "name": "Tamil", "family": "Dravidian" }
+    ],
+    "script": "Latin (English/Malay); Chinese characters (Mandarin); Tamil script — four official languages make genuinely multi-script signage a strong clue"
+  },
+  "terrainTags": ["urban-dense", "coastal"],
+  "terrainDescription": {
+    "zh": "城市國家，幾乎全境高度都市化，僅存零星雨林保護區（如武吉知馬）",
+    "en": "A city-state that's almost entirely urbanized, with only small remaining rainforest reserves (e.g. Bukit Timah)"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white-on-black or black-on-white (front); white-on-black or black-on-yellow (rear)",
+      "shape": "rectangular, 520×110mm (or square two-line 325×160mm)",
+      "frontRequired": true
+    },
+    "bollardStyle": "No confidently documented distinctive style found — not a reliable standalone clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No confidently documented distinctive style found — not a reliable standalone clue"
+    }
+  },
+  "historicalContext": {
+    "zh": "前英國殖民地，法律與道路系統深受英式體制影響，未確認為維也納道路標誌公約締約國，四種官方語言使路牌呈現罕見的多文字並列現象。",
+    "en": "A former British colony whose legal and road systems are deeply UK-influenced; not confirmed as a Vienna Convention on Road Signs party. Its four official languages produce an unusually consistent multi-script signage pattern."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["malaysia", "brunei"],
+  "images": []
+}

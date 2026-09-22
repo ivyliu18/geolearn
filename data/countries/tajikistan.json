@@ -1,0 +1,40 @@
+{
+  "id": "tajikistan",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇹🇯",
+  "names": { "zh": "塔吉克", "en": "Tajikistan" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Tajik", "family": "Iranian / Persian — NOT Turkic" }],
+    "script": "Cyrillic"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "帕米爾高原，全國近九成為山地",
+    "en": "Pamir highlands — nearly 90% of the country is mountainous"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white",
+      "shape": "rectangular, 520×110mm, flag + \"TJ\" code on left",
+      "frontRequired": true
+    },
+    "bollardStyle": "No distinctively-documented Tajikistan-specific bollard style found — not a reliable standalone clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles typical of post-Soviet Central Asia; no further distinctive documented detail"
+    }
+  },
+  "historicalContext": {
+    "zh": "主體為塔吉克人，語言／文化與波斯文明歷史淵源深，與周邊突厥語系國家在語系上明顯不同。",
+    "en": "Majority Tajik, with deep historical/linguistic ties to Persian civilization — linguistically distinct from its Turkic-speaking neighbors."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["kyrgyzstan", "afghanistan"],
+  "images": []
+}

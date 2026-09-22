@@ -1,0 +1,44 @@
+{
+  "id": "malaysia",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇲🇾",
+  "names": { "zh": "馬來西亞", "en": "Malaysia" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Malay", "family": "Austronesian" }],
+    "notable": [
+      { "name": "Mandarin Chinese", "family": "Sino-Tibetan", "note": "widely spoken, large Chinese-Malaysian population" },
+      { "name": "Tamil", "family": "Dravidian", "note": "widely spoken, large Indian-Malaysian population" }
+    ],
+    "script": "Latin (Rumi); Jawi (Arabic-derived script) retains official/ceremonial status alongside it"
+  },
+  "terrainTags": ["rainforest", "coastal", "highland-mountain", "urban-dense"],
+  "terrainDescription": {
+    "zh": "分為馬來半島與婆羅洲島上的東馬，熱帶雨林覆蓋率高，吉隆坡等西海岸城市高度都市化",
+    "en": "Split between Peninsular Malaysia and East Malaysia on Borneo; extensive rainforest cover, with west-coast cities like Kuala Lumpur highly urbanized"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white text on black background, front and rear alike (exceptions: taxis, dealers, diplomats)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black, white, grey and red are the common bollard colors; notably, Malaysia is one of the few countries whose street markings never use yellow — a useful distinguishing clue from neighboring Indonesia/Philippines",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No strongly distinctive documented transformer-mount pattern found — treat as a lower-confidence field"
+    }
+  },
+  "historicalContext": {
+    "zh": "前英國殖民地，靠左行駛，多元族群（馬來人／華人／印度人）使路牌常見多語言並列。",
+    "en": "A former British colony that drives on the left; its multi-ethnic population (Malay/Chinese/Indian) means signage often carries multiple languages side by side."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["indonesia", "singapore", "brunei"],
+  "images": []
+}

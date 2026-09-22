@@ -1,0 +1,40 @@
+{
+  "id": "vietnam",
+  "continent": "asia",
+  "subregion": "mainland-southeast-asia",
+  "flagEmoji": "🇻🇳",
+  "names": { "zh": "越南", "en": "Vietnam" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Vietnamese", "family": "Austroasiatic (Vietic)" }],
+    "script": "Latin script with heavy diacritics (Chữ Quốc Ngữ) — tonal marks make it visually distinct from other Latin-script languages"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "狹長的海岸線縱貫全國，紅河與湄公河三角洲形成廣大農業平原，內陸則有中部高原。",
+    "en": "A long, narrow coastline stretches the length of the country, with the Red River and Mekong deltas forming vast agricultural plains and the Central Highlands rising inland."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background black text (private); yellow background black text (commercial, since Aug 2020); blue background white text (government)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No strongly distinctive standalone bollard type; red-and-white striped concrete safety barriers appear on mountain roads",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Round concrete poles with small pinholes near the top and an upside-down-trapezoid pole-top shape; \"holey poles\" with holes limited to the lower or upper half (not full length)"
+    }
+  },
+  "historicalContext": {
+    "zh": "越南語曾長期使用漢字及衍生的喃字書寫，法國殖民時期才轉為今日拉丁字母化的「國語字」，密集的聲調符號是最明顯的辨識特徵。",
+    "en": "Vietnamese was written in Chinese characters and later a Chinese-derived script (chữ Nôm) for centuries before French colonial administrators romanized it into today's Latin-based Chữ Quốc Ngữ — the dense diacritics are the clearest visual giveaway."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["laos", "cambodia"],
+  "images": []
+}

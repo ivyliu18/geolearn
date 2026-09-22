@@ -1,0 +1,51 @@
+{
+  "id": "ethiopia",
+  "continent": "africa",
+  "subregion": "east-africa",
+  "flagEmoji": "🇪🇹",
+  "names": { "zh": "衣索比亞", "en": "Ethiopia" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Amharic", "family": "Afro-Asiatic / Semitic" }],
+    "notable": [{ "name": "Afaan Oromo", "family": "Afro-Asiatic / Cushitic", "note": "most speakers overall" }],
+    "script": "Ge'ez script (Amharic); Afaan Oromo uses Latin/Qubee — two scripts coexist in one country"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "衣索比亞高原為主，地形崎嶇多山，在撒哈拉以南非洲中較特殊",
+    "en": "Dominated by the Ethiopian Highlands — rugged and mountainous, unusual among Sub-Saharan countries"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "Historically region-coded plates (11+ regional abbreviations); transitioning to a unified national format under the \"ETH\" distinguishing code — exact background/text color not confirmed by sources found",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "No Ethiopia-specific source found for pole/transformer style — flagging as unconfirmed rather than guessing detail"
+    }
+  },
+  "historicalContext": {
+    "zh": "衣索比亞是非洲少數未被歐洲殖民的國家，保有獨特曆法與正教會傳統。",
+    "en": "One of the few African countries never colonized by a European power, retaining its own calendar and Orthodox Christian traditions."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Habesha Kemis + Orthodox church architecture",
+      "note": {
+        "zh": "傳統服飾 Habesha Kemis（白棉布搭配彩色織邊）常見於節慶與教堂場合，日常街景中年輕人多穿西式服裝；正教會十字架與蜂窩狀雕刻教堂建築反而是較穩定可見的文化線索。",
+        "en": "Traditional Habesha Kemis (white cotton with colorful woven borders) appears mainly at festivals/churches — everyday streetwear tends Western-style. Orthodox church architecture (domes, honeycomb carving) is a more consistently visible cultural clue."
+      },
+      "confidence": 2,
+      "caveat": "Clothing is festival-only; architecture is the steadier signal"
+    }
+  ],
+  "commonlyConfusedWith": ["eritrea", "somalia"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "thailand",
+  "continent": "asia",
+  "subregion": "mainland-southeast-asia",
+  "flagEmoji": "🇹🇭",
+  "names": { "zh": "泰國", "en": "Thailand" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Thai", "family": "Kra-Dai (Tai-Kadai)" }],
+    "script": "Thai script — a Brahmic-derived abugida with no spaces between words, distinctive curled/looped letterforms"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain", "coastal", "rainforest"],
+  "terrainDescription": {
+    "zh": "昭披耶河流域形成核心農業平原，北部近緬甸／寮國邊境為山地，南部則是狹長熱帶海岸與島鏈。",
+    "en": "The Chao Phraya river basin forms a fertile agricultural plain at the core, with mountainous terrain near the Myanmar/Laos border in the north and a long tropical coastline with island chains in the south."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, province name in Thai below the serial (standard private-vehicle format since 1997)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Square concrete bollards painted black-and-white (alternating or bottom-white/top-black) — very common and distinctive",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles with small pinholes running the full vertical length (unlike Sri Lanka, where holes stop partway); street-light pole bases often painted black-and-red or black-and-white"
+    }
+  },
+  "historicalContext": {
+    "zh": "泰語使用自己的婆羅米系文字（與越南以外的多數鄰國所用拉丁字母不同），也是中南半島唯一靠左行駛的國家——雖未被正式殖民，但深受早期英國商業影響。",
+    "en": "Thai uses its own Brahmic-derived script (unrelated to the Latin alphabet used by most neighbors except Vietnam) and is the only mainland Southeast Asian country to drive on the left — a legacy of early British commercial influence despite never being formally colonized."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["laos", "cambodia"],
+  "images": []
+}

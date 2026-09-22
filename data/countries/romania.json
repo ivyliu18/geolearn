@@ -1,0 +1,40 @@
+{
+  "id": "romania",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇷🇴",
+  "names": { "zh": "羅馬尼亞", "en": "Romania" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Romanian", "family": "Romance — derived from Latin, an exception surrounded by Slavic-speaking countries" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "喀爾巴阡山脈環繞，多瑙河沿岸平原",
+    "en": "Ringed by the Carpathian mountains, with plains along the Danube"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, format CC 12 ABC (2-letter county code)",
+      "shape": "rectangular; 520×110mm mandatory on front, narrower 340×200mm variant sometimes used on the rear of SUV-type vehicles",
+      "frontRequired": true
+    },
+    "bollardStyle": "Bollards are rarely used at all in Romania — not a reliable clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "\"Holey poles\" like Hungary's (holes reach the ground), often with a white-painted base and/or yellow marking near the bottom"
+    }
+  },
+  "historicalContext": {
+    "zh": "源自古羅馬「達契亞」行省歷史，語言承襲拉丁語根源，因此和西班牙語/義大利語有一定程度可辨認的相似字彙。",
+    "en": "Traces its roots to the Roman province of Dacia; the Latin-derived vocabulary gives it recognizable overlap with Spanish/Italian."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["bulgaria", "hungary"],
+  "images": []
+}

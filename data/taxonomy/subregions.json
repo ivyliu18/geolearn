@@ -4,8 +4,15 @@
     { "id": "west-africa", "names": { "zh": "西非", "en": "West Africa" } },
     { "id": "southern-africa", "names": { "zh": "南部非洲", "en": "Southern Africa" } }
   ],
-  "asia": [],
-  "europe": [],
+  "asia": [
+    { "id": "central-asia", "names": { "zh": "中亞", "en": "Central Asia" } },
+    { "id": "east-asia", "names": { "zh": "東亞", "en": "East Asia" } },
+    { "id": "mainland-southeast-asia", "names": { "zh": "中南半島東南亞", "en": "Mainland Southeast Asia" } },
+    { "id": "maritime-southeast-asia", "names": { "zh": "海島東南亞", "en": "Maritime Southeast Asia" } }
+  ],
+  "europe": [
+    { "id": "eastern-europe", "names": { "zh": "東歐", "en": "Eastern Europe" } }
+  ],
   "north-america": [],
   "south-america": [],
   "oceania": []

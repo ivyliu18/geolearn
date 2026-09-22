@@ -1,0 +1,45 @@
+{
+  "id": "taiwan",
+  "continent": "asia",
+  "subregion": "east-asia",
+  "flagEmoji": "🇹🇼",
+  "names": { "zh": "台灣", "en": "Taiwan" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Mandarin Chinese", "family": "Sino-Tibetan" }],
+    "notable": [
+      { "name": "Taiwanese Hokkien", "family": "Sino-Tibetan (Min Nan branch)" },
+      { "name": "Hakka", "family": "Sino-Tibetan" },
+      { "name": "Formosan languages", "family": "Austronesian", "note": "Taiwan is considered the likely Urheimat (homeland) of the whole Austronesian language family" }
+    ],
+    "script": "Traditional Chinese characters; Zhuyin Fuhao (Bopomofo, ㄅㄆㄇㄈ) used as the primary phonetic teaching system instead of mainland China's Hanyu Pinyin"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "agricultural-plains", "urban-dense"],
+  "terrainDescription": {
+    "zh": "山地占國土面積約三分之二（玉山超過3900公尺），西部為主要平原與人口聚居帶",
+    "en": "Roughly two-thirds mountainous (Yushan exceeds 3,900m), with the main plains and population concentrated in the west"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black text on white (front & rear)",
+      "shape": "rectangular, 320×150mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black rectangular bollards with two or three circular reflectors",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Cylindrical concrete poles, often with diagonal black-and-yellow stripes on the lower section running all the way to the ground; small blue utility stickers sometimes visible on the pole"
+    }
+  },
+  "historicalContext": {
+    "zh": "台灣官方書寫系統維持繁體中文，並使用注音符號作為主要的中文發音教學工具，兩者皆與中國大陸的簡體字＋漢語拼音系統不同，是辨識台灣路牌/招牌的關鍵線索。",
+    "en": "Taiwan officially retains Traditional Chinese characters and uses Zhuyin Fuhao (Bopomofo) as its primary phonetic teaching system for Mandarin — both differ from mainland China's Simplified characters + Hanyu Pinyin, making them key clues for identifying Taiwanese signage."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["china", "japan"],
+  "images": []
+}

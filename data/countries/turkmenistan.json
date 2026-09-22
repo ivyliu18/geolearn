@@ -1,0 +1,40 @@
+{
+  "id": "turkmenistan",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇹🇲",
+  "names": { "zh": "土庫曼", "en": "Turkmenistan" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Turkmen", "family": "Turkic" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["desert"],
+  "terrainDescription": {
+    "zh": "卡拉庫姆沙漠幾乎覆蓋全境",
+    "en": "The Karakum desert covers most of the country"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white (yellow for foreign nationals, blue for diplomatic, green for government)",
+      "shape": "rectangular, 520×110mm, flag + \"TM\" on left",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not documented — Street View coverage is extremely sparse, so no reliable community-sourced bollard reference exists",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not distinctively documented; road system described as a mix of post-Soviet and Turkish influence"
+    }
+  },
+  "historicalContext": {
+    "zh": "主體為土庫曼人，歷史上為部落聯盟遊牧社會；Street View 覆蓋極少，實戰中極罕見。",
+    "en": "Majority Turkmen, historically organized as tribal confederations; Street View coverage is extremely sparse — rarely seen in actual rounds."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["uzbekistan", "iran"],
+  "images": []
+}

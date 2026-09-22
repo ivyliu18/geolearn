@@ -1,0 +1,40 @@
+{
+  "id": "bulgaria",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇧🇬",
+  "names": { "zh": "保加利亞", "en": "Bulgaria" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Bulgarian", "family": "South Slavic" }],
+    "script": "Cyrillic (Cyrillic itself originated in Bulgaria)"
+  },
+  "terrainTags": ["highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "巴爾幹山脈貫穿，黑海沿岸為東部邊界",
+    "en": "Crossed by the Balkan mountains, with the Black Sea coast forming its eastern border"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, standard EU blue band with \"BG\" code",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Red rectangular reflector on the front, white on the back — same wedge design as Hungary, Croatia, North Macedonia",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Standard grey concrete shaft; no distinctive Hungary/Romania-style \"holey pole\" pattern documented"
+    }
+  },
+  "historicalContext": {
+    "zh": "與羅馬尼亞相鄰卻使用完全不同語系與字母，是很好的「文字系統 vs. 語系」對照案例。",
+    "en": "Neighbors Romania yet uses a completely different language family and alphabet — a good case study in \"script vs. language family.\""
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["romania", "north-macedonia"],
+  "images": []
+}

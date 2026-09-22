@@ -1,0 +1,43 @@
+{
+  "id": "kazakhstan",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇰🇿",
+  "names": { "zh": "哈薩克", "en": "Kazakhstan" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Kazakh", "family": "Turkic" },
+      { "name": "Russian", "family": "Slavic", "note": "widely used" }
+    ],
+    "script": "Cyrillic (transitioning to Latin, target 2031)"
+  },
+  "terrainTags": ["steppe-grassland", "desert", "highland-mountain"],
+  "terrainDescription": {
+    "zh": "廣大草原與半沙漠地形，東南部有天山山脈",
+    "en": "Vast steppe and semi-desert, with the Tian Shan mountains in the southeast"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white (yellow for foreign-registered, red for diplomatic)",
+      "shape": "rectangular, 520×110mm, Kazakh flag + \"KZ\" band on left",
+      "frontRequired": true
+    },
+    "bollardStyle": "Post-Soviet/Turkish-style bollards common; a distinctive Kazakhstan-specific type is two thin bollards joined at a 90° angle",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square/rectangular concrete poles as in other post-Soviet states; street name signs are often blue plaques with white patterned borders mounted directly on buildings rather than on poles"
+    }
+  },
+  "historicalContext": {
+    "zh": "主體民族為哈薩克人（突厥系遊牧文化），蘇聯時期政策使俄羅斯族移入比例較高，兩者語言／文字混用在招牌上很常見。",
+    "en": "Majority Kazakh (Turkic nomadic heritage); Soviet-era policy brought a significant Russian-speaking population, so bilingual signage is common."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["uzbekistan", "kyrgyzstan"],
+  "images": []
+}

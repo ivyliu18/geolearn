@@ -1,0 +1,41 @@
+{
+  "id": "china",
+  "continent": "asia",
+  "subregion": "east-asia",
+  "flagEmoji": "🇨🇳",
+  "names": { "zh": "中國", "en": "China" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Standard Chinese (Mandarin/Putonghua)", "family": "Sino-Tibetan" }],
+    "note": "Putonghua is the sole official national language; regional/minority languages (Cantonese, Tibetan, Uyghur, Mongolian, etc.) are extensive but not co-official nationally",
+    "script": "Simplified Chinese characters (Hanzi); Hanyu Pinyin Latin-alphabet romanization frequently appears alongside characters on road signs"
+  },
+  "terrainTags": ["highland-mountain", "desert", "steppe-grassland", "coastal", "agricultural-plains", "urban-dense"],
+  "terrainDescription": {
+    "zh": "地形極端多樣：西部高原山地（青藏高原）、北部沙漠與草原、東部沿海平原與高度都市化地帶並存於同一國家",
+    "en": "Extremely varied terrain: western highland plateaus (Tibetan Plateau), northern deserts and steppe, and densely urbanized eastern coastal plains all within one country"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "blue background/white text (standard private cars); yellow background/black text (trucks, buses, special-use vehicles); green background/black text (new-energy vehicles); white (police); black (some military/consular)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No single strongly distinctive national bollard style documented",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Commonly circular or square cross-section concrete poles; no single strongly distinctive national transformer-mount style documented"
+    }
+  },
+  "historicalContext": {
+    "zh": "現代中國大陸使用1950年代後簡化的「簡體字」，並普遍搭配漢語拼音（拉丁字母標音）並列於路牌，此點是與使用繁體字的台灣/香港最直接的文字辨識差異。",
+    "en": "Mainland China uses Simplified Chinese characters (simplified since the 1950s) and commonly pairs them with Hanyu Pinyin Latin-alphabet transliteration on road signs — the most direct script-based way to distinguish it from Traditional-Chinese-using Taiwan/Hong Kong."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["taiwan", "japan"],
+  "images": []
+}

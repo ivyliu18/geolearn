@@ -1,0 +1,51 @@
+{
+  "id": "ghana",
+  "continent": "africa",
+  "subregion": "west-africa",
+  "flagEmoji": "🇬🇭",
+  "names": { "zh": "迦納", "en": "Ghana" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [{ "name": "Akan", "family": "Niger-Congo" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "savanna", "coastal"],
+  "terrainDescription": {
+    "zh": "南部熱帶雨林與沿海，北部轉為薩赫爾稀樹草原",
+    "en": "Tropical rainforest and coast in the south, transitioning to Sahelian savanna in the north"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white (private); black-on-yellow (commercial); format \"AS 2567-12\" (region code + number + year)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white striped bollards common in cities; rural roads mostly use plain unpainted metal signposts instead",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "3 insulators on a metal crossbar (visually similar to Kenya's poles)"
+    }
+  },
+  "historicalContext": {
+    "zh": "迦納是撒哈拉以南非洲第一個獨立的前殖民地（1957年），阿善提王國歷史深刻影響當地文化認同。",
+    "en": "Ghana was the first Sub-Saharan African colony to gain independence (1957); the Ashanti Kingdom's history deeply shapes local cultural identity."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Kente cloth",
+      "note": {
+        "zh": "肯特布（Kente cloth，鮮豔幾何條紋）源自阿善提族，是迦納最具代表性的紡織品，但主要用於慶典場合，日常街景較少見；蠟染布同樣廣泛使用，跨國界不具辨識力。",
+        "en": "Kente cloth (bright geometric stripes) originates with the Ashanti and is Ghana's most iconic textile, but mainly worn at ceremonies, not everyday scenes. Wax-print fabric is also common but not distinctive since it spans multiple countries."
+      },
+      "confidence": 2,
+      "caveat": "Mainly ceremonial — rarely seen in ordinary street scenes"
+    }
+  ],
+  "commonlyConfusedWith": ["nigeria", "togo"],
+  "images": []
+}

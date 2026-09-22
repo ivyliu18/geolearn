@@ -1,0 +1,40 @@
+{
+  "id": "lithuania",
+  "continent": "europe",
+  "subregion": "eastern-europe",
+  "flagEmoji": "🇱🇹",
+  "names": { "zh": "立陶宛", "en": "Lithuania" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Lithuanian", "family": "Baltic — a separate branch, not Slavic" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["temperate-forest", "coastal"],
+  "terrainDescription": {
+    "zh": "平坦地形，森林、湖泊、沙丘海岸（庫爾斯沙嘴）",
+    "en": "Flat terrain with forests, lakes, and dune coastline (Curonian Spit)"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, standard EU blue band with \"LT\" code",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Wedge-style bollard, orange rectangular reflector on front, white on back",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles studded with many small round insulator \"bulbs\" along the shaft"
+    }
+  },
+  "historicalContext": {
+    "zh": "波羅的語族被認為保留了最多古印歐語特徵之一，是語言學上很獨特的一支。",
+    "en": "The Baltic language family is considered to retain some of the most archaic Indo-European features — a linguistically distinctive branch."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["latvia", "poland"],
+  "images": []
+}

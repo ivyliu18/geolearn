@@ -1,0 +1,51 @@
+{
+  "id": "senegal",
+  "continent": "africa",
+  "subregion": "west-africa",
+  "flagEmoji": "🇸🇳",
+  "names": { "zh": "塞內加爾", "en": "Senegal" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "French", "family": "Romance" }],
+    "notable": [{ "name": "Wolof", "family": "Niger-Congo", "note": "main lingua franca" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["savanna", "coastal"],
+  "terrainDescription": {
+    "zh": "薩赫爾半乾燥草原與大西洋沿岸，達卡半島為主要都會區",
+    "en": "Sahelian semi-arid savanna and Atlantic coastline, with the Dakar peninsula as the main urban hub"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white with a blue \"SN\"+flag country strip on the left; format \"AA-123-BC\" (2019–present)",
+      "shape": "rectangular, 52×11cm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed for Senegal; French colonial road-infrastructure legacy suggests it likely resembles other Francophone-West-Africa/French-style concrete bollards, but treat as low-confidence",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "\"Ladder-style\" poles reported as similar to those used in parts of metropolitan France"
+    }
+  },
+  "historicalContext": {
+    "zh": "法語系西非國家，殖民歷史使法語成為行政/教育語言，但日常口語以沃洛夫語為主。",
+    "en": "A Francophone West African country — French is the administrative/education language, while Wolof dominates everyday speech."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Boubou/Grand Boubou robe",
+      "note": {
+        "zh": "寬鬆長袍 Boubou／Grand Boubou 在達卡街頭常見，但廣泛見於整個法語系西非（馬利、幾內亞等），不能單獨鎖定塞內加爾；法文＋沃洛夫語混用的招牌拼字反而更可靠。",
+        "en": "The flowing Boubou/Grand Boubou robe is common on Dakar streets, but widespread across Francophone West Africa — not diagnostic alone. French+Wolof mixed signage spelling is a more reliable clue."
+      },
+      "confidence": 1,
+      "caveat": "Pan-regional — do not treat as country-diagnostic on its own"
+    }
+  ],
+  "commonlyConfusedWith": ["mali", "guinea"],
+  "images": []
+}

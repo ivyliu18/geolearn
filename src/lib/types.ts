@@ -18,6 +18,8 @@ export interface LocalizedText {
 export interface LanguageEntry {
   name: string;
   family: string;
+  /** Free-text qualifier, e.g. "widely used" or "co-official". */
+  note?: string;
 }
 
 export interface LanguageInfo {

@@ -1,0 +1,47 @@
+{
+  "id": "timor-leste",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇹🇱",
+  "names": { "zh": "東帝汶", "en": "Timor-Leste" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Portuguese", "family": "Romance" },
+      { "name": "Tetum", "family": "Austronesian", "note": "main lingua franca" }
+    ],
+    "notable": [
+      { "name": "Indonesian", "family": "Austronesian", "note": "working language, not official" },
+      { "name": "English", "family": "Germanic", "note": "working language, not official" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "savanna"],
+  "terrainDescription": {
+    "zh": "多山地形，氣候較周邊島嶼乾燥，尤加利樹疏林與稀樹草原景觀是與鄰近濕熱雨林地帶明顯不同之處",
+    "en": "Mountainous, with a notably drier climate than its neighbors — eucalyptus woodland and savanna-like vegetation stand out against the wetter rainforests typical of the rest of maritime Southeast Asia"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black text on white, Australian-standard size",
+      "shape": "rectangular, 372×134mm; 5-digit serial with \"TL\"/\"TLS\" lettering",
+      "frontRequired": true
+    },
+    "bollardStyle": "No documented national style found — not a confirmed clue",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not confidently documented — inferred (not confirmed) from the country's general infrastructure development level; treat as low-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "曾為葡萄牙殖民地（靠右行駛），1975年印尼佔領期間改為靠左行駛，2002年獨立後沿用至今；葡萄牙語與泰頓語並列官方語言，是東南亞少見的葡語系國家。",
+    "en": "A former Portuguese colony (originally right-hand traffic); switched to left-hand traffic during the 1975 Indonesian occupation and kept it after independence in 2002. Portuguese and Tetum are co-official — a rare Lusophone outlier in Southeast Asia."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["indonesia"],
+  "images": []
+}

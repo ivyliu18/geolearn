@@ -1,0 +1,40 @@
+{
+  "id": "indonesia",
+  "continent": "asia",
+  "subregion": "maritime-southeast-asia",
+  "flagEmoji": "🇮🇩",
+  "names": { "zh": "印尼", "en": "Indonesia" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Indonesian", "family": "Austronesian / Malayic" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "coastal", "highland-mountain", "urban-dense"],
+  "terrainDescription": {
+    "zh": "全球最大群島國，火山地形密布，熱帶雨林與海岸線並存，爪哇等島高度都市化",
+    "en": "The world's largest archipelago, densely dotted with volcanoes; tropical rainforest and coastline coexist, with islands like Java highly urbanized"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background/black text since June 2022 (black bg/white text before); yellow bg/black text for public transport",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Yellow-and-black striped bollards with a red rectangle near the top are common; black/white square or circular variants also seen; some regional variants (e.g. Central Sulawesi's black/white/yellow banding)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Poles sometimes carry the Indonesian red-white flag as stripes on the lower section; asymmetrical poles with 2 supports below the crossbar occur mainly on Sumatra and southern Sulawesi"
+    }
+  },
+  "historicalContext": {
+    "zh": "印尼於1968年簽署維也納道路標誌公約但尚未正式批准，實務上道路標誌設計仍採用維也納式圖標系統。",
+    "en": "Indonesia signed the 1968 Vienna Convention on Road Signs and Signals but has not formally ratified it; in practice its road signs still follow Vienna-style pictograms."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["malaysia", "philippines"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "japan",
+  "continent": "asia",
+  "subregion": "east-asia",
+  "flagEmoji": "🇯🇵",
+  "names": { "zh": "日本", "en": "Japan" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "Japanese", "family": "Japonic" }],
+    "script": "Kanji (Chinese characters) mixed with Hiragana and Katakana syllabaries — three scripts used together in ordinary text"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "temperate-forest", "urban-dense"],
+  "terrainDescription": {
+    "zh": "多山列島地形，平原稀少且高度都市化，山地占國土約七成，沿海為主要聚落帶",
+    "en": "A mountainous archipelago with limited flat land; roughly 70% of the terrain is mountainous, so settlement concentrates in dense coastal plains"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background/green text (private ≥660cc); green background/white text (commercial ≥660cc); yellow background/black text (private kei cars ≤660cc); black background/yellow text (commercial kei cars)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Highly varied by region rather than one national standard; a recurring feature is a circular protruding reflector, and yellow-and-black diagonal stripes are common on pole-mounted hazard markers",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Tapered grey concrete poles, often with a cylindrical drum-shaped transformer partway up; crossbar/insulator style varies by region (e.g. a tuning-fork-shaped pole top is common in the Kansai region)"
+    }
+  },
+  "historicalContext": {
+    "zh": "漢字自古代由中國傳入日本，之後發展出平假名與片假名兩套表音文字，三者混用是日文書寫最鮮明的視覺特徵。",
+    "en": "Kanji (Chinese characters) were imported from China in antiquity; Hiragana and Katakana syllabaries were later developed domestically — the mix of all three is Japanese writing's most visually distinctive trait."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["south-korea", "taiwan"],
+  "images": []
+}

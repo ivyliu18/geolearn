@@ -1,0 +1,40 @@
+{
+  "id": "south-korea",
+  "continent": "asia",
+  "subregion": "east-asia",
+  "flagEmoji": "🇰🇷",
+  "names": { "zh": "南韓", "en": "South Korea" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Korean", "family": "Koreanic" }],
+    "script": "Hangul (phonetic alphabet); Hanja (Chinese characters) occasionally appears in formal/historical contexts but is rare in everyday signage"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "temperate-forest", "urban-dense"],
+  "terrainDescription": {
+    "zh": "地形多山（約七成為山地丘陵），西部與南部有較多平原與海岸都市帶",
+    "en": "Predominantly mountainous (roughly 70% hills/mountains), with more plains and coastal urban development in the west and south"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "black text on white (front & rear); serial format e.g. \"12A 3456\"",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Yellow flexible posts common in urban areas; rural bollards often carry circular yellow/white reflectors",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Distinctive sharp spike-like tip extending above the pole top; diagonal yellow-and-black stripes partway up the shaft (not reaching the ground)"
+    }
+  },
+  "historicalContext": {
+    "zh": "1443年世宗大王頒布諺文（韓文字母），以取代原本借用的漢字書寫系統；現代韓文街景幾乎完全使用諺文，漢字僅偶爾出現於正式場合。",
+    "en": "King Sejong promulgated Hangul in 1443 to replace the borrowed Chinese-character writing system; modern street signage is almost entirely Hangul, with Hanja appearing only occasionally in formal contexts."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["north-korea", "japan"],
+  "images": []
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kyrgyzstan",
+  "continent": "asia",
+  "subregion": "central-asia",
+  "flagEmoji": "🇰🇬",
+  "names": { "zh": "吉爾吉斯", "en": "Kyrgyzstan" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Kyrgyz", "family": "Turkic" },
+      { "name": "Russian", "family": "Slavic", "note": "co-official" }
+    ],
+    "script": "Cyrillic"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "極度多山（天山山脈），伊塞克湖等高山湖泊",
+    "en": "Extremely mountainous (Tian Shan range), with alpine lakes such as Issyk-Kul"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black on white",
+      "shape": "rectangular, 520×110mm, red vertical flag band on left",
+      "frontRequired": true
+    },
+    "bollardStyle": "White bollards with a diagonal black stripe near the top; red-and-white triangle-patterned kilometer markers along roadsides are a fairly distinctive Kyrgyzstan clue",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Square concrete poles as elsewhere in post-Soviet Central Asia; lower trunks of poles and roadside trees are frequently whitewashed"
+    }
+  },
+  "historicalContext": {
+    "zh": "主體為吉爾吉斯人，歷史上以高山遊牧生活為主。",
+    "en": "Majority Kyrgyz, with a historically nomadic, high-altitude pastoral culture."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["kazakhstan", "tajikistan"],
+  "images": []
+}
