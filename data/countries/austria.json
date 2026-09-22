@@ -1,0 +1,40 @@
+{
+  "id": "austria",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇦🇹",
+  "names": { "zh": "奧地利", "en": "Austria" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "German", "family": "Germanic" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "temperate-forest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "阿爾卑斯山脈覆蓋西部與中部約六成國土，多瑙河谷與維也納盆地則是東部主要平原農業區。",
+    "en": "The Alps cover roughly 60% of the country across the west and center, while the Danube valley and Vienna Basin form the main lowland agricultural belt in the east."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; blue EU band with gold stars and country code \"A\" on the left; red-white-red tricolor bands top and bottom (since Nov 2002)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "White bollard with a black top and a small nipple-shaped black cap; dark red or dark grey reflector on the front — a highly distinctive combination not shared by any other country",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Round wooden poles are the most common type"
+    }
+  },
+  "historicalContext": {
+    "zh": "德語為官方語言，車牌自2002年11月起採用歐盟式設計（左側藍底歐盟星環+國碼A），但鄰國瑞士（非歐盟成員）則沒有此設計。",
+    "en": "German is the official language; license plates have used the EU-style design (blue band with the EU stars and country code \"A\" on the left) since November 2002 — unlike neighboring Switzerland, which isn't an EU member and lacks this feature."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["switzerland", "germany"],
+  "images": []
+}

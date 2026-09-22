@@ -1,0 +1,45 @@
+{
+  "id": "switzerland",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇨🇭",
+  "names": { "zh": "瑞士", "en": "Switzerland" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "German", "family": "Germanic", "note": "~62% of population" },
+      { "name": "French", "family": "Romance", "note": "~23%" },
+      { "name": "Italian", "family": "Romance", "note": "~8%" },
+      { "name": "Romansh", "family": "Romance", "note": "<1%, official only in Graubünden canton" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "temperate-forest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "阿爾卑斯山脈占據南部與中部，中央高原（Mittelland）為主要農業與人口聚居帶，北部與東部另有汝拉山脈與森林地形。",
+    "en": "The Alps dominate the south and center; the Swiss Plateau (Mittelland) is the main agricultural and population belt, with the Jura mountains and forest in the north/east."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; rear plate also shows the Swiss coat of arms and the canton's coat of arms",
+      "shape": "front 300×80mm, rear 300×160mm or 500×110mm; format AB·123456 (2-letter canton code + up to 6 digits)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white, curved-cylindrical bollards, highly standardized nationally — community GeoGuessr sources rate Swiss bollards as one of the most reliable clues (95%+ accuracy when visible)",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Round wooden poles are the most common type"
+    }
+  },
+  "historicalContext": {
+    "zh": "瑞士有四種官方語言（德語約62%、法語約23%、義大利語約8%、羅曼什語不到1%但仍為官方語言），語言分界線清楚劃分不同區域，跨越邊界時路牌語言會隨之改變，是絕佳的教學案例；瑞士並非歐盟成員國。",
+    "en": "Switzerland has four official languages (German ~62%, French ~23%, Italian ~8%, Romansh under 1% but still official), with clear linguistic-region boundaries — road-sign language visibly changes as you cross them, making it a great teaching case. Switzerland is not an EU member."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["austria", "liechtenstein", "germany"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "france",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇫🇷",
+  "names": { "zh": "法國", "en": "France" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "French", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain", "mediterranean", "coastal"],
+  "terrainDescription": {
+    "zh": "北部與中部為廣大農業平原，南部為地中海型氣候，東南部有阿爾卑斯山脈、西南有庇里牛斯山。",
+    "en": "Vast agricultural plains across the north and center, a Mediterranean climate in the south, and mountains ringing the edges — the Alps in the southeast, the Pyrenees in the southwest."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with \"F\" on the left",
+      "shape": "rectangular, 520×110mm, format AB-123-CD",
+      "frontRequired": true
+    },
+    "bollardStyle": "Round white post with a pointed top and a full reflector band (grey or red) — very recognizable and common; a less-common wedge-shaped variant with wide rectangular reflectors also exists",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "\"Ladder/waffle\" concrete poles with step-like indents; small blue rectangular plates on wooden/metal poles; diamond-shaped \"French poletop\" with three wires common atop ladder poles"
+    }
+  },
+  "historicalContext": {
+    "zh": "法語源自拉丁語，全境統一使用法語與拉丁字母，路牌風格與辨識線索（如白色長虛線、藍色車牌條）在西歐鄰國中相對一致但仍可辨識。",
+    "en": "French is a Romance language descended from Latin, used uniformly nationwide in the Latin alphabet — signage style and clues (like the long white dashed road lines and blue EU plate band) are broadly similar to Western European neighbors but still distinguishable."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["belgium", "luxembourg"],
+  "images": []
+}

@@ -2,7 +2,8 @@
   "africa": [
     { "id": "east-africa", "names": { "zh": "東非", "en": "East Africa" } },
     { "id": "west-africa", "names": { "zh": "西非", "en": "West Africa" } },
-    { "id": "southern-africa", "names": { "zh": "南部非洲", "en": "Southern Africa" } }
+    { "id": "southern-africa", "names": { "zh": "南部非洲", "en": "Southern Africa" } },
+    { "id": "north-africa", "names": { "zh": "北非", "en": "North Africa" } }
   ],
   "asia": [
     { "id": "central-asia", "names": { "zh": "中亞", "en": "Central Asia" } },
@@ -11,9 +12,18 @@
     { "id": "maritime-southeast-asia", "names": { "zh": "海島東南亞", "en": "Maritime Southeast Asia" } }
   ],
   "europe": [
-    { "id": "eastern-europe", "names": { "zh": "東歐", "en": "Eastern Europe" } }
+    { "id": "eastern-europe", "names": { "zh": "東歐", "en": "Eastern Europe" } },
+    { "id": "central-europe", "names": { "zh": "中歐", "en": "Central Europe" } },
+    { "id": "western-europe", "names": { "zh": "西歐", "en": "Western Europe" } },
+    { "id": "southern-europe", "names": { "zh": "南歐", "en": "Southern Europe" } },
+    { "id": "northern-europe", "names": { "zh": "北歐", "en": "Northern Europe" } }
   ],
-  "north-america": [],
-  "south-america": [],
+  "north-america": [
+    { "id": "north-america", "names": { "zh": "北美", "en": "North America" } },
+    { "id": "central-america-caribbean", "names": { "zh": "中美加勒比", "en": "Central America & Caribbean" } }
+  ],
+  "south-america": [
+    { "id": "south-america", "names": { "zh": "南美", "en": "South America" } }
+  ],
   "oceania": []
 }

@@ -1,0 +1,43 @@
+{
+  "id": "uk",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇬🇧",
+  "names": { "zh": "英國", "en": "United Kingdom" },
+  "driveSide": "left",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [
+      { "name": "Welsh", "family": "Celtic (Brythonic)", "note": "co-official in Wales; bilingual road signage (Welsh + English) is common there" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "highland-mountain", "urban-dense"],
+  "terrainDescription": {
+    "zh": "島嶼地形，南部與東部為丘陵農業平原，蘇格蘭與威爾斯北部則多山地，海岸線曲折綿長",
+    "en": "An island nation with rolling agricultural lowlands in the south and east, mountainous terrain in Scotland and north Wales, and a long, convoluted coastline"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "mile",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white background/black text (front); yellow background/black text (rear)",
+      "shape": "rectangular, 520×111mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white sectioned traffic bollards with a large red rectangle on top; pedestrian-crossing poles are distinctively black-and-white striped with a yellow globe light on top (\"Belisha beacon\") — the UK has almost no diamond/triangle pedestrian-crossing signage, using these poles instead",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles, occasionally with metal crossbars; yellow electrical-hazard warning stickers depicting a person being struck by lightning are a UK-specific detail distinguishing it from Ireland's similar but figure-less sticker"
+    }
+  },
+  "historicalContext": {
+    "zh": "英國是全球少數道路距離仍以英里（而非公里）標示的國家之一，也未曾批准維也納道路標誌公約，保有自成一格的標誌系統；威爾斯境內常見威爾斯語與英語並列的雙語路牌。",
+    "en": "The UK is one of the few countries that still measures road distances in miles rather than kilometers, and it never ratified the Vienna Convention on Road Signs and Signals, keeping its own distinct sign system. Bilingual Welsh/English road signage is common within Wales."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["ireland"],
+  "images": []
+}

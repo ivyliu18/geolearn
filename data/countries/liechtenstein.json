@@ -1,0 +1,41 @@
+{
+  "id": "liechtenstein",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇱🇮",
+  "names": { "zh": "列支敦士登", "en": "Liechtenstein" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "German", "family": "Germanic" }],
+    "note": "Alemannic Swiss-German dialect spoken locally; standard German used in writing",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "temperate-forest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "地形以阿爾卑斯山地為主，西側萊茵河谷提供狹窄的農業平原，是全球少數的雙重內陸國之一（鄰國瑞士也是內陸國）。",
+    "en": "Predominantly Alpine terrain, with a narrow agricultural strip along the Rhine valley in the west; one of the world's few \"doubly landlocked\" countries (its neighbor Switzerland is landlocked too)."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white characters on a black background (distinct from Switzerland/Austria's white-background plates)",
+      "shape": "front 300×80mm, rear 500×110mm; format FL 12345 (\"FL\" + small Liechtenstein coat of arms + up to 5 digits)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently documented; the country closely follows Swiss legislation and infrastructure, so likely resembles Switzerland's black-and-white curved bollards — treat as an inference, not a confirmed fact",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not independently documented; inferred similarity to Switzerland/Austria's common round wooden poles given shared Alpine infrastructure norms — low confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "列支敦士登為德語系阿爾卑斯微型國家，2020年才正式加入維也納道路標誌公約，法規與基礎建設高度承襲鄰國瑞士（甚至使用瑞士法郎作為貨幣）。",
+    "en": "Liechtenstein is a German-speaking Alpine microstate that only formally joined the Vienna Convention on Road Signs and Signals in 2020; its regulations and infrastructure closely follow neighboring Switzerland's (it even uses the Swiss franc as currency)."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["switzerland", "austria"],
+  "images": []
+}

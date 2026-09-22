@@ -1,0 +1,41 @@
+{
+  "id": "monaco",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇲🇨",
+  "names": { "zh": "摩納哥", "en": "Monaco" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "French", "family": "Romance" }],
+    "notable": [{ "name": "Monégasque", "family": "Romance (Ligurian)", "note": "traditional/ceremonial, very few native speakers" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["urban-dense", "mediterranean", "coastal"],
+  "terrainDescription": {
+    "zh": "整個國家幾乎全為高度都市化的地中海沿岸山城，著名的「岩石」（Le Rocher）是歷史城區所在的石灰岩海岬。",
+    "en": "Almost the entire country is a densely urbanized Mediterranean hillside city; the historic core sits atop a limestone headland known as Le Rocher (\"the Rock\")."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white reflective background, blue characters; red-and-white Monaco coat of arms plus \"MC\" country code at left (since the 1978 redesign)",
+      "shape": "rectangular, 260×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently documented — no Monaco-specific community meta found given its tiny size; closely integrated with France so likely resembles French bollards, but treat this as an unconfirmed inference, not a fact",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not documented for Monaco specifically; the country is almost entirely dense urban terrain where utilities are commonly undergrounded, so utility poles may not even be a usable visual clue here — flagging as low-confidence/inferred rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "摩納哥是法語圈微型城邦，四周被法國環繞，道路系統與法國高度整合，1978年加入維也納道路標誌公約。",
+    "en": "Monaco is a Francophone microstate entirely surrounded by France, with its road system closely integrated with France's; it joined the Vienna Convention on Road Signs and Signals in 1978."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["france"],
+  "images": []
+}

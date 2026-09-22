@@ -1,0 +1,40 @@
+{
+  "id": "germany",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇩🇪",
+  "names": { "zh": "德國", "en": "Germany" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "German", "family": "Germanic" }],
+    "script": "Latin (with ä, ö, ü, ß)"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain", "temperate-forest"],
+  "terrainDescription": {
+    "zh": "北部為北德平原，中部為丘陵與森林地形（如黑森林），南部近阿爾卑斯山脈邊緣多山地。",
+    "en": "The North German Plain dominates the north, central Germany is hilly and forested (e.g. the Black Forest), and the south turns mountainous near the edge of the Alps."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with \"D\" + district/city code letters",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Flat black-and-white bollards with white/light-grey reflectors (orange near intersections), 2 screws/bolts on the reflector (vs. Luxembourg's near-identical style with 3); some carry small blue side plates with road numbers",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wide variety of pole-top styles — horizontal bar with uneven hanging insulators, triangle tops, and T-shaped tops are most common; wooden poles often carry a rectangular white sticker; black/dark-grey sign backs are notably common (rare elsewhere in Europe)"
+    }
+  },
+  "historicalContext": {
+    "zh": "德語使用拉丁字母並保留 ä、ö、ü、ß 等特殊字母，是德、奧、瑞士（德語區）共通的書寫特徵，路牌招牌上常見這些變音符號。",
+    "en": "German uses the Latin alphabet but retains distinctive letters (ä, ö, ü, ß) shared with Austria and German-speaking Switzerland — a recurring giveaway on signage across all three."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["austria", "switzerland"],
+  "images": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "netherlands",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇳🇱",
+  "names": { "zh": "荷蘭", "en": "Netherlands" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Dutch", "family": "Germanic" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "urban-dense"],
+  "terrainDescription": {
+    "zh": "地勢極為平坦，大片國土低於海平面，仰賴堤防與圩田排水系統，西部蘭斯台德都會區高度都市化。",
+    "en": "Exceptionally flat, with large areas below sea level held back by dikes and polder drainage systems; the western Randstad conurbation is intensely urbanized."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "yellow background, black text, blue EU band with \"NL\" (mandatory since 2000; pre-1977 vehicles may retain white-on-blue)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Simple white bollard with a red reflector; round French-style bollards (red band, pointed top) occasionally appear too",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Utility poles are largely absent in most of the Netherlands (undergrounded cabling) — their near-total absence is itself a distinguishing clue rather than a specific pole style"
+    }
+  },
+  "historicalContext": {
+    "zh": "荷蘭語為日耳曼語族，與比利時北部法蘭德斯地區的荷語（Flemish）高度相通；A 級高速公路標誌上的道路編號固定放在紅色方框中，是辨識度很高的路牌特徵。",
+    "en": "Dutch is a Germanic language closely related to Flemish spoken in northern Belgium; A-road motorway signs place the route number in a distinctive red box, a highly recognizable signage trait."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["belgium", "luxembourg"],
+  "images": []
+}

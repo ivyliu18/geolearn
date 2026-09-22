@@ -1,0 +1,44 @@
+{
+  "id": "belgium",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇧🇪",
+  "names": { "zh": "比利時", "en": "Belgium" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Dutch", "family": "Germanic", "note": "Flanders (north)" },
+      { "name": "French", "family": "Romance", "note": "Wallonia (south)" },
+      { "name": "German", "family": "Germanic", "note": "small community near the eastern border" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["agricultural-plains", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "北部法蘭德斯為低地平原，南部瓦隆地區的阿登高地地形起伏較大，北海沿岸有一小段海岸線。",
+    "en": "Flanders in the north is low-lying plain, the Ardennes uplands in southern Wallonia are hillier, and a short North Sea coastline runs along the northwest."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, red text — the only EU country using red-on-white rather than black-on-white/yellow; plate is tied to the owner/driver, not the vehicle",
+      "shape": "rectangular, format 1-ABC-123",
+      "frontRequired": true
+    },
+    "bollardStyle": "Distinctive white bollard with a yellow rectangle",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Poles closely resemble France's ladder/waffle-style concrete poles"
+    }
+  },
+  "historicalContext": {
+    "zh": "比利時三種官方語言依地區單一使用：法蘭德斯用荷蘭語、瓦隆用法語、東部小區域用德語；僅布魯塞爾首都區官方雙語（Brussel/Bruxelles 並列），其餘地區路牌只會顯示當地語言的地名，不會雙語並列——這點常被誤解。",
+    "en": "Belgium's three official languages are used regionally, not uniformly: Dutch in Flanders, French in Wallonia, German in a small eastern pocket. Only the Brussels-Capital Region is officially bilingual (Brussel/Bruxelles shown together) — road signs elsewhere show only the local region's language, a commonly misunderstood point."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["netherlands", "france", "luxembourg"],
+  "images": []
+}

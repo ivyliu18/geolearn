@@ -1,0 +1,45 @@
+{
+  "id": "luxembourg",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇱🇺",
+  "names": { "zh": "盧森堡", "en": "Luxembourg" },
+  "driveSide": "right",
+  "language": {
+    "official": [
+      { "name": "Luxembourgish", "family": "Germanic (Moselle Franconian)" },
+      { "name": "French", "family": "Romance" },
+      { "name": "German", "family": "Germanic" }
+    ],
+    "note": "all three co-official; genuinely trilingual signage/media is routine, not exceptional",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "temperate-forest", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "北部厄斯林（Oesling）屬阿登高地延伸，丘陵森林為主；南部古特蘭（Gutland）地勢較平緩，農業與都市發展較集中。",
+    "en": "The northern Oesling is an extension of the Ardennes uplands, hilly and forested; the southern Gutland is gentler terrain with more agriculture and urban development."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "yellow background, black text, blue EU band on the left",
+      "shape": "rectangular, format 2 letters + 4 digits",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white wedge-shaped bollards with grey reflectors, nearly identical to Germany's but with 3 bolts on the reflector instead of Germany's 2 — a subtle but reliable differentiator",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Upside-down trident-shaped pole-tops are the most common style"
+    }
+  },
+  "historicalContext": {
+    "zh": "盧森堡語、法語、德語三語皆為官方語言，日常招牌、媒體同時使用三種語言的情況並不罕見，是歐洲少見的高密度多語言國家。",
+    "en": "Luxembourgish, French, and German are all official — genuinely trilingual everyday signage and media is routine here, making it one of Europe's most linguistically dense small countries."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["belgium", "france", "germany"],
+  "images": []
+}

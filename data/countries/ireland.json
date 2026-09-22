@@ -1,0 +1,44 @@
+{
+  "id": "ireland",
+  "continent": "europe",
+  "subregion": "western-europe",
+  "flagEmoji": "🇮🇪",
+  "names": { "zh": "愛爾蘭", "en": "Ireland" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Irish (Gaeilge)", "family": "Celtic (Goidelic)" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "note": "Irish is the constitutional first official language, though English is the everyday majority language; bilingual road signage (Irish above English) is a strong, consistent visual identifier",
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "agricultural-plains", "temperate-forest"],
+  "terrainDescription": {
+    "zh": "以綠色丘陵牧草地為主的溫帶海洋性氣候地形，中部多低地牧場，沿海地區地形起伏較大",
+    "en": "Temperate oceanic terrain dominated by green pastoral lowlands, with a low-lying central plain and more rugged coastal areas"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, black text; blue EU strip with 12 gold stars + \"IRL\" on the left; optional green strip on the right for zero-emission vehicles (since July 2025)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "Green-and-white bollards are a fairly reliable clue distinguishing Ireland from the UK",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles, occasionally with metal crossbars (similar to the UK); yellow electrical-hazard stickers show only a lightning bolt with no human figure (unlike the UK's), often paired with a second black-outlined rectangular sticker below — a subtle but useful UK/Ireland differentiator"
+    }
+  },
+  "historicalContext": {
+    "zh": "愛爾蘭雖與英國同樣靠左行駛，卻已於2005年改用公制公里標示距離，且警告標誌採用美式黃色菱形（而非英國/歐陸常見的紅框三角形），是歐洲道路標誌中相當獨特的混合案例。",
+    "en": "Despite driving on the left like the UK, Ireland switched to metric kilometers for road distances in 2005, and its warning signs use American-style yellow diamonds rather than the red-bordered triangles common in the UK and continental Europe — a genuinely unusual hybrid case in Europe."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["uk"],
+  "images": []
+}
