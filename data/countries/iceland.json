@@ -1,0 +1,41 @@
+{
+  "id": "iceland",
+  "continent": "europe",
+  "subregion": "northern-europe",
+  "flagEmoji": "🇮🇸",
+  "names": { "zh": "冰島", "en": "Iceland" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Icelandic", "family": "Germanic (North Germanic)" }],
+    "note": "Retains letters þ (thorn) and ð (eth) from Old Norse/Old English — not used in Norwegian, Swedish, or Danish, and one of the most linguistically conservative living Germanic languages",
+    "script": "Latin (extended with þ, ð, and other diacritics)"
+  },
+  "terrainTags": ["tundra", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "火山與冰河地形為主，多數地區近乎無樹，呈現典型苔原與荒地景觀，與其他北歐國家的森林地形明顯不同。",
+    "en": "Dominated by volcanic and glacial terrain; most of the country is famously near-treeless, with classic tundra/barren landscapes that stand in sharp contrast to the forested terrain of the other Nordic countries."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "other",
+    "plate": {
+      "color": "white background, black text, Icelandic emblem + \"IS\" on the left",
+      "shape": "rectangular, EU-standard 520×110mm, format ABC12 (older AB 123 format still valid but no longer issued)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Yellow bollard with a white top edge/reflector",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not strongly documented beyond general Nordic wooden-pole styles — Iceland's low population and sparse road network mean thinner community documentation than its neighbors; treat as lower-confidence"
+    }
+  },
+  "historicalContext": {
+    "zh": "冰島語屬北日耳曼語族，與挪威語、瑞典語同源，但自古諾斯語以來變化極小，被視為現存北歐語言中最保守／古老的一支，至今保留 þ、ð 等古字母，是辨識度極高的文字特徵；冰島並非維也納道路標誌公約締約國，但標誌設計大致與公約系統一致。",
+    "en": "Icelandic is North Germanic, sharing roots with Norwegian and Swedish, but has changed remarkably little since Old Norse — often considered the most conservative living Nordic language, still using archaic letters like þ and ð, a highly distinctive script feature. Iceland is not a party to the Vienna Convention on Road Signs and Signals, though its sign design is broadly consistent with the convention's system."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["norway"],
+  "images": []
+}

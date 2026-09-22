@@ -1,0 +1,40 @@
+{
+  "id": "denmark",
+  "continent": "europe",
+  "subregion": "northern-europe",
+  "flagEmoji": "🇩🇰",
+  "names": { "zh": "丹麥", "en": "Denmark" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Danish", "family": "North Germanic (Scandinavian)" }],
+    "script": "Latin (æ, ø, å — same letter set as Norwegian, differing spelling/vocabulary)"
+  },
+  "terrainTags": ["agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "地形極為平坦，全國無真正山脈，以農業平原與眾多島嶼、綿長海岸線為主要特徵，與挪威、瑞典的多山地形形成明顯對比。",
+    "en": "Exceptionally flat with no real mountains anywhere in the country — dominated by agricultural plains, numerous islands, and a long coastline, in clear contrast to mountainous Norway and Sweden."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text (standard private cars); other colors by vehicle type; blue EU band with \"DK\" — Denmark was the last EU country to adopt the EU-format plate, in 2009",
+      "shape": "rectangular, 520×110mm, format AB 12 345",
+      "frontRequired": true
+    },
+    "bollardStyle": "A highly distinctive white bollard with a yellow reflector and a dark orange stripe, found on almost every road — one of the most reliable single-country bollard clues in Europe; outer road lines made of small white squares are another distinctive Danish marking",
+    "utilityPole": {
+      "material": "steel",
+      "transformerMount": "Standard street-level utility poles are actually rare in Denmark; rural electricity infrastructure instead relies on large, towering overhead transmission lines, often running near highways — their absence/scale is itself the identifying clue rather than a specific pole style"
+    }
+  },
+  "historicalContext": {
+    "zh": "丹麥語與挪威語共用 æ、ø、å 字母，但拼字與詞彙仍有差異；丹麥全境地勢平坦、無高山，這點與地形崎嶇的挪威、瑞典形成強烈對比；丹麥也是最後一個採用歐盟式車牌設計的歐盟成員國（2009年）。",
+    "en": "Danish shares the æ/ø/å letters with Norwegian, though spelling and vocabulary still differ. Denmark's famously flat, mountain-free terrain contrasts sharply with rugged Norway and Sweden. Denmark was also the last EU member state to adopt the EU-format license plate, in 2009."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["norway", "sweden", "germany"],
+  "images": []
+}

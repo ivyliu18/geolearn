@@ -1,0 +1,44 @@
+{
+  "id": "finland",
+  "continent": "europe",
+  "subregion": "northern-europe",
+  "flagEmoji": "🇫🇮",
+  "names": { "zh": "芬蘭", "en": "Finland" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Finnish", "family": "Uralic (Finnic)" }],
+    "notable": [
+      { "name": "Swedish", "family": "Germanic (North Germanic)", "note": "co-official nationally; small native-speaker minority, bilingual signage common on the west/south coast" },
+      { "name": "Sámi languages", "family": "Uralic (Sámi)", "note": "official status in the northernmost municipalities (Lapland)" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["boreal-taiga", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "國土大部分覆蓋北方針葉林與數萬座湖泊，地勢平緩，南部與西部沿海有較集中的農業帶。",
+    "en": "Mostly covered by boreal taiga forest and tens of thousands of lakes, with gentle terrain and a more concentrated agricultural belt along the south/west coast."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with oval \"FIN\" on the left",
+      "shape": "rectangular, format ABC-123",
+      "frontRequired": true
+    },
+    "bollardStyle": "Cylindrical black-and-white bollard — the black portion contains a white rectangle; a shape not shared with the other Nordic countries' bollards",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Simple wooden poles with varying pole-top styles; lamps are normally double-bolted to the top of the pole; orange snow poles with a thin white band near the top are common roadside markers (Norway/Sweden also use snow poles, but with a much wider, lower-set white band — a useful Finland-vs-Norway/Sweden differentiator)"
+    }
+  },
+  "historicalContext": {
+    "zh": "芬蘭語屬烏拉爾語系（芬蘭-烏戈爾語族），與北歐鄰國（挪威、瑞典、丹麥）所屬的北日耳曼語族完全無關，是「北歐地理分組」不等於「語言親緣關係」的鮮明案例；瑞典語為全國共同官方語言，西部與南部沿海地區常見芬蘭語／瑞典語雙語路牌。",
+    "en": "Finnish belongs to the Uralic (Finno-Ugric) language family, completely unrelated to the North Germanic languages of its Nordic neighbors (Norway, Sweden, Denmark) — a clear case where geographic \"Nordic\" grouping doesn't imply linguistic kinship. Swedish is co-official nationwide, and bilingual Finnish/Swedish road signage is common along the west and south coasts."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["norway", "sweden", "estonia"],
+  "images": []
+}

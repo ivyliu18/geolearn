@@ -1,0 +1,43 @@
+{
+  "id": "sweden",
+  "continent": "europe",
+  "subregion": "northern-europe",
+  "flagEmoji": "🇸🇪",
+  "names": { "zh": "瑞典", "en": "Sweden" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Swedish", "family": "North Germanic (Scandinavian)" }],
+    "notable": [
+      { "name": "Sami languages", "family": "Uralic (Sami branch)", "note": "regional/minority official status in parts of the north (Sápmi)" }
+    ],
+    "script": "Latin (ä, ö, å — note: uses ä/ö rather than Norwegian/Danish's æ/ø, a precise spelling-based way to tell them apart)"
+  },
+  "terrainTags": ["boreal-taiga", "highland-mountain", "agricultural-plains", "coastal"],
+  "terrainDescription": {
+    "zh": "北部為廣大針葉林與湖泊地帶，西北與挪威交界處漸轉山地，南部斯科訥地區則有較平坦的農業平原。",
+    "en": "Extensive boreal forest and lakes dominate the north, rising to mountains near the Norwegian border in the northwest, while the southern Skåne region has flatter agricultural plains."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with \"S\" on the left",
+      "shape": "rectangular, 520×110mm, format ABC 123 or ABC 12A",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white, wedge-shaped, round, or thin-and-curved, typically with a grey reflector (orange near intersections); highway outer lines look solid from a distance but are actually broken into small sections — a subtle difference from Finland's/Norway's more solid-looking lines; roadside snow poles are orange with a tall white reflector slightly above the pole's middle, sometimes with a second thinner reflector above",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Not strongly documented for Sweden specifically — likely a similar Nordic wooden-pole style to Norway's, but treat as inferred rather than confirmed"
+    }
+  },
+  "historicalContext": {
+    "zh": "瑞典語、挪威語、丹麥語同屬北日耳曼語族，書面文字高度相通，但瑞典語使用 ä、ö（而非挪威語/丹麥語的 æ、ø），是精確區分三者的可靠拼字線索；薩米語在北部薩普米地區具地區官方地位。",
+    "en": "Swedish, Norwegian, and Danish are all North Germanic languages with largely mutually intelligible writing, but Swedish uses ä/ö rather than Norwegian/Danish's æ/ø — a precise, reliable spelling-based way to tell them apart. Sami languages hold regional official status in the northern Sápmi area."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["norway", "denmark", "finland"],
+  "images": []
+}

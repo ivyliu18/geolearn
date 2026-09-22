@@ -1,0 +1,40 @@
+{
+  "id": "san-marino",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇸🇲",
+  "names": { "zh": "聖馬利諾", "en": "San Marino" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Italian", "family": "Romance" }],
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "mediterranean", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "國土完全被義大利包圍，地形以圓潤的農業丘陵為主，首都建於海拔749公尺的提塔諾山（Monte Titano）之上，植被呈典型地中海型樣貌。",
+    "en": "Entirely enclaved within Italy, with smooth agricultural hills and a capital built atop 749m Monte Titano; vegetation is distinctly Mediterranean and lush."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, medium-blue text (RAL 5017 since a 2023 redesign), national coat of arms on the left",
+      "shape": "rectangular; front reduced to 300×100mm since 2023",
+      "frontRequired": true
+    },
+    "bollardStyle": "Same design as Italy's (vertical red rectangle in a black diagonal stripe, front; white rectangle, rear)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Round concrete poles are the most common type, same as in Italy"
+    }
+  },
+  "historicalContext": {
+    "zh": "聖馬利諾是全球現存最古老的共和國之一，完全被義大利領土環繞，交通法規與路牌設計沿用義大利系統；境內獨有的黃底暗紅箭頭髮夾彎警示標誌，是全世界僅見的配色組合，也是辨識度極高的視覺線索。",
+    "en": "San Marino is one of the world's oldest surviving republics, entirely surrounded by Italian territory, and its traffic law and road-sign design directly follow Italy's system. It uniquely uses yellow curve-warning chevron signs with burgundy-red arrows — a color combination found nowhere else in the world and a highly reliable visual clue."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["italy"],
+  "images": []
+}

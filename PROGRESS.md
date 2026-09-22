@@ -3,7 +3,7 @@
 Tracks `/data/countries/*.json` completion against `geolearn-africa-spec.md` §5
 (Phase 1 rollout). Update this file whenever a batch of countries is inserted.
 
-## Done (50 countries)
+## Done (62 countries)
 
 ### Batch 01 — `phase1-batch-01.md`
 | id | continent/subregion | culturalMarkers |
@@ -177,20 +177,109 @@ Weakest-sourced fields (flagged honestly in the JSON text, not invented):
   references rather than an official/government source — reasonably
   confident but not government-cited.
 
+### Batch 05 — Southern Europe (7 countries, ad hoc request, no batch file)
+| id | continent/subregion | culturalMarkers |
+|---|---|---|
+| italy | europe / southern-europe | empty — needs manual review |
+| san-marino | europe / southern-europe | empty — needs manual review |
+| spain | europe / southern-europe | empty — needs manual review |
+| portugal | europe / southern-europe | empty — needs manual review |
+| andorra | europe / southern-europe | empty — needs manual review |
+| greece | europe / southern-europe | empty — needs manual review |
+| malta | europe / southern-europe | empty — needs manual review |
+
+Researched via three parallel fork agents (Spain/Portugal/Andorra;
+Italy/San Marino; Greece/Malta) — verified 2026-09-22. Sources: Wikipedia
+"Vehicle registration plates of X" and "Road signs in X" pages, Vienna
+Convention on Road Signs and Signals (1968) party status, national traffic
+law, [Road signs in the European microstates](https://en.wikipedia.org/wiki/Road_signs_in_the_European_microstates),
+plonkit.net/geometas.com for bollard/pole visual details.
+
+Notable findings:
+- **Spain**: Castilian is the sole national official language, but Catalan,
+  Basque (a genuine language isolate, unrelated to any other European
+  language), and Galician are co-official regionally with bilingual
+  signage — a strong, accurate regional identifier worth keeping precise in
+  future quiz content.
+- **Greece**: uses its own 24-letter Greek alphabet (neither Latin nor
+  Cyrillic) — one of the single clearest script-based identifiers in
+  Europe; signs typically pair Greek with a Latin transliteration below.
+- **Malta**: drives **left** (former British colony, independence 1964)
+  despite being surrounded by right-hand-drive Mediterranean neighbors —
+  `signStandard: "uk"`, but distance unit is **km** (not miles) — a useful
+  parallel to Ireland's already-documented UK/metric split. Maltese is
+  linguistically unique: the only Semitic language written in the Latin
+  alphabet and the only Semitic EU-official language.
+- **San Marino**: fully enclaved within Italy; road law and sign design
+  directly mirror Italy's. Andorra's road-sign design closely follows
+  Spain's but with Catalan language — it only formally joined the Vienna
+  Convention on Road Signs and Signals in January 2025 (notably recent).
+- **Italy**: mostly monolingual Italian, but South Tyrol/Alto Adige
+  (German co-official, near the Austrian border) and the Aosta Valley
+  (French co-official) are genuine bilingual border pockets.
+
+Weakest-sourced fields (flagged honestly in the JSON text, not invented):
+- **andorra**: `bollardStyle` and `utilityPole` both unconfirmed — no
+  country-specific documentation found given its tiny size.
+- **malta**: `bollardStyle` and `utilityPole` both unconfirmed.
+- **greece**: `utilityPole.material` inferred (concrete) rather than
+  directly confirmed.
+
+### Batch 06 — Northern Europe / Nordics (5 countries, ad hoc request, no batch file)
+| id | continent/subregion | culturalMarkers |
+|---|---|---|
+| norway | europe / northern-europe | empty — needs manual review |
+| sweden | europe / northern-europe | empty — needs manual review |
+| denmark | europe / northern-europe | empty — needs manual review |
+| finland | europe / northern-europe | empty — needs manual review |
+| iceland | europe / northern-europe | empty — needs manual review |
+
+Researched via two parallel fork agents (Norway/Sweden/Denmark; Finland/
+Iceland) — verified 2026-09-22. Sources: Wikipedia "Vehicle registration
+plates of X" and "Road signs in X" pages, Vienna Convention on Road Signs
+and Signals (1968) party status, national traffic law, plonkit.net/
+geometas.com for bollard/pole visual details.
+
+Notable findings:
+- **Finland**: Finnish is Uralic, genuinely unrelated to the North Germanic
+  languages of Norway/Sweden/Denmark despite the "Nordic" geographic
+  grouping — a precise, useful teaching point (parallel to Estonian/
+  Hungarian elsewhere in Europe). Swedish is co-official nationwide with
+  bilingual signage on the west/south coast.
+- **Iceland**: North Germanic but retains archaic letters þ (thorn) and ð
+  (eth) from Old Norse, absent from Norwegian/Swedish/Danish — a strong
+  script-based identifier. Terrain is tundra/volcanic/near-treeless, NOT
+  forested like its neighbors — deliberately did not default to
+  `boreal-taiga` just because it's "Nordic." Not a Vienna Convention party
+  (`signStandard: "other"`), though its sign design broadly follows it.
+- **Norway/Sweden/Denmark**: North Germanic and largely mutually
+  intelligible in writing, but distinguishable by precise spelling: Norway
+  and Denmark share æ/ø/å, Sweden uses ä/ö/å instead. Norway is notably one
+  of the only European countries with a **yellow** center line (most of
+  Europe uses white); Denmark's white-with-orange-stripe bollard is called
+  out as one of the more reliable single-country bollard clues in Europe.
+  Denmark is also famously flat with no real mountains, unlike
+  mountainous Norway/Sweden — terrainTags reflect that distinction rather
+  than treating all three Nordics the same.
+
+Weakest-sourced fields (flagged honestly in the JSON text, not invented):
+- **iceland**, **sweden**: `utilityPole.transformerMount` inferred from
+  general Nordic wooden-pole norms rather than country-specific sources.
+
 ## Pending
 
-- `southern-europe`, `northern-europe`, `north-africa`, `north-america`,
-  `central-america-caribbean`, `south-america` subregions exist in the
-  taxonomy but have **no countries assigned yet** — added ahead of
-  `batch-europe-africa-americas.md`, not yet processed. (`western-europe`
-  is now populated — see batch 04.)
-- **Manual review of `culturalMarkers`** for all 42 countries above with
-  empty arrays (15 from batch 02 + 16 from batch 03 + 11 from batch 04) —
-  per spec §5, this field requires human judgment every time and is
-  intentionally not auto-generated.
+- `north-africa`, `north-america`, `central-america-caribbean`,
+  `south-america` subregions exist in the taxonomy but have **no countries
+  assigned yet** — added ahead of `batch-europe-africa-americas.md`, not
+  yet processed. (`western-europe`, `southern-europe`, and
+  `northern-europe` are now populated — see batches 04–06.)
+- **Manual review of `culturalMarkers`** for all 54 countries above with
+  empty arrays (15 from batch 02 + 16 from batch 03 + 11 from batch 04 + 7
+  from batch 05 + 5 from batch 06) — per spec §5, this field requires human
+  judgment every time and is intentionally not auto-generated.
 - Countries referenced by `commonlyConfusedWith` but not yet in the dataset
   (will resolve once added): afghanistan, belarus, benin, botswana, burundi,
-  eritrea, eswatini, finland, guinea, iran, latvia, lesotho, mali, namibia,
+  eritrea, eswatini, guinea, iran, latvia, lesotho, mali, namibia,
   north-macedonia, russia, somalia, togo, uganda.
 - Remaining Phase 1 candidates from spec §5's example starting set not yet
   added: usa, brazil, india, australia, turkey, argentina.

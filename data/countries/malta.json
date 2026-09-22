@@ -1,0 +1,44 @@
+{
+  "id": "malta",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇲🇹",
+  "names": { "zh": "馬爾他", "en": "Malta" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Maltese", "family": "Semitic (Arabic-derived)" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "note": "Maltese is the only Semitic language written in the Latin alphabet, and the only Semitic language with official EU status",
+    "script": "Latin"
+  },
+  "terrainTags": ["coastal", "mediterranean", "urban-dense"],
+  "terrainDescription": {
+    "zh": "由石灰岩構成的小型群島，地勢低平、幾乎全境高度開發，呈現特有的米黃/淺黃色岩石景觀",
+    "en": "A small limestone archipelago, low-lying and almost entirely built up, with a distinctive pale beige/yellow rock landscape"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white background, black text; blue EU stripe with gold stars + \"M\" code on the left",
+      "shape": "rectangular, format ZZZ 999 (since 1995)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently confirmed; bollard reflector orientation is mirrored to suit left-hand traffic like the UK/Ireland, but no distinct Malta-specific style is documented",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented — flagging as unconfirmed rather than guessing a specific style"
+    }
+  },
+  "historicalContext": {
+    "zh": "馬爾他曾為英國殖民地（1964年獨立），因此靠左行駛且深受英式道路系統影響，交通標誌同時混用英式與（左駕鏡射版本的）義大利式設計；馬爾他語是唯一以拉丁字母書寫、且為歐盟官方語言的閃語族語言，是相當獨特的語言學特徵。",
+    "en": "Malta was a British colony until 1964, hence its left-hand traffic and deeply UK-influenced road system, though British- and (left-mirrored) Italian-style signs coexist. Maltese is linguistically unique: the only Semitic language written in the Latin alphabet and the only Semitic language with EU-official status."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["uk", "italy"],
+  "images": []
+}

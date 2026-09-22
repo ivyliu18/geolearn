@@ -1,0 +1,45 @@
+{
+  "id": "spain",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇪🇸",
+  "names": { "zh": "西班牙", "en": "Spain" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Spanish (Castilian)", "family": "Romance" }],
+    "notable": [
+      { "name": "Catalan", "family": "Romance", "note": "co-official in Catalonia, Valencia (as Valencian), and the Balearic Islands; bilingual signage common" },
+      { "name": "Basque (Euskara)", "family": "Language isolate — not Indo-European, genuinely unique in Europe", "note": "co-official in the Basque Country and Navarre; bilingual signage with a distinctive thick black border" },
+      { "name": "Galician", "family": "Romance", "note": "co-official in Galicia, closely related to Portuguese" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["mediterranean", "highland-mountain", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "中央為梅塞塔高原，四周環繞庇里牛斯山、坎塔布連山等山脈，地中海沿岸與南部安達魯西亞則屬典型地中海型氣候。",
+    "en": "A central Meseta plateau ringed by mountain ranges (Pyrenees, Cantabrian), with a classic Mediterranean climate along the coast and in the south (Andalusia)."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, blue EU band with \"E\" on the left",
+      "shape": "rectangular, 500×110mm, format 1234 ABC (no vowels, no Ñ)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Wedge-shaped, often hollow, with an orange rectangular reflector on the front and two white circular reflectors on the back; some regional variation (e.g. Aragón, Asturias)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "\"Ladder\" concrete poles with step-like indents common in small towns/rural areas; \"French-style\" upside-down-triangle poletops with a slightly upward-curved horizontal bar are also common, usually atop tall ladder poles or mid-size steel poles"
+    }
+  },
+  "historicalContext": {
+    "zh": "西班牙全國官方語言為卡斯提亞語（西班牙語），但加泰隆尼亞語（加泰隆尼亞、瓦倫西亞、巴利亞利群島）、巴斯克語（非印歐語系的語言孤島）、加利西亞語（與葡萄牙語系出同源）在各自的自治區並列官方語言，路牌常見雙語並列，是辨識區域的強力線索。",
+    "en": "Castilian Spanish is the sole official language nationwide, but Catalan (Catalonia/Valencia/Balearics), Basque (a language isolate unrelated to any other European language), and Galician (closely related to Portuguese) are co-official within their own autonomous communities — bilingual road signage there is a strong regional identifier."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["portugal", "andorra"],
+  "images": []
+}

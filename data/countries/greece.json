@@ -1,0 +1,40 @@
+{
+  "id": "greece",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇬🇷",
+  "names": { "zh": "希臘", "en": "Greece" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Greek", "family": "Hellenic (Indo-European)" }],
+    "script": "Greek alphabet — a distinct 24-letter script, neither Latin nor Cyrillic; road signs typically pair the Greek place name with a Latin-transliterated version below"
+  },
+  "terrainTags": ["mediterranean", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "地形以山地為主（約八成國土多山），愛琴海與愛奧尼亞海沿岸有大量島嶼與曲折海岸線，屬地中海型氣候",
+    "en": "Predominantly mountainous (roughly 80% of the terrain), with a Mediterranean climate and a highly indented coastline dotted with islands across the Aegean and Ionian Seas"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; blue EU stripe with gold stars + \"GR\" code on the left (since 2004)",
+      "shape": "rectangular, 520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Wedge-shaped bollards with near-square reflectors — red on the front face, white on the back",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Small lamps attached to the side of the pole with a round shade above the bulb — a style also shared with North Macedonia and Serbia; pole material commonly concrete but not strongly confirmed for this specific detail"
+    }
+  },
+  "historicalContext": {
+    "zh": "希臘語使用專屬的希臘字母（24個字母），既非拉丁字母也非西里爾字母，是全歐洲辨識度最高的文字系統之一；路牌通常以希臘文為主、下方輔以拉丁字母轉寫的地名。",
+    "en": "Greek uses its own 24-letter alphabet — neither Latin nor Cyrillic — making it one of the single clearest script-based identifiers in all of Europe; road signs typically show the Greek place name with a Latin-transliterated version below."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["italy"],
+  "images": []
+}

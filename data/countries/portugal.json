@@ -1,0 +1,41 @@
+{
+  "id": "portugal",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇵🇹",
+  "names": { "zh": "葡萄牙", "en": "Portugal" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Portuguese", "family": "Romance" }],
+    "note": "Closely related to Galician, spoken just across the northern border in Spain — part of the same West Iberian dialect continuum",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "agricultural-plains", "mediterranean"],
+  "terrainDescription": {
+    "zh": "北部多山地與河谷，中南部漸趨平緩，大西洋沿岸線綿長，南部阿爾加維地區屬地中海型氣候。",
+    "en": "Mountainous river valleys in the north giving way to gentler terrain further south, a long Atlantic coastline, and a Mediterranean climate in the southern Algarve."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text (front and rear)",
+      "shape": "rectangular, 520×110mm, format AA-00-AA (current since 2020)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Wedge-shaped with a noticeably thin white top, or flat with a wide reflector (mostly white, sometimes orange)",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Concrete \"ladder\" poles with very tall steps, each often with a small see-through hole — taller/more pronounced ladder rungs than Spain's; wooden poles also occur"
+    }
+  },
+  "historicalContext": {
+    "zh": "葡萄牙語與西班牙加利西亞語同屬伊比利亞羅曼語連續體，兩者歷史淵源極深；鄉間常見紅白配色的菱形或長方形狩獵警示標誌，是葡萄牙鄉村路景的特色之一。",
+    "en": "Portuguese and Galician (spoken in northwest Spain) share deep historical roots within the West Iberian Romance dialect continuum. Red-and-white diamond or rectangular hunting-warning signs are a distinctive feature of the Portuguese countryside."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["spain"],
+  "images": []
+}

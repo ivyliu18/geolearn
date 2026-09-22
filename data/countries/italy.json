@@ -1,0 +1,44 @@
+{
+  "id": "italy",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇮🇹",
+  "names": { "zh": "義大利", "en": "Italy" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Italian", "family": "Romance" }],
+    "notable": [
+      { "name": "German", "family": "Germanic", "note": "co-official in South Tyrol/Alto Adige; bilingual road signage near the Austrian border" },
+      { "name": "French", "family": "Romance", "note": "co-official in the Aosta Valley (northwest)" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["mediterranean", "highland-mountain", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "北部有阿爾卑斯山與波河平原農業帶，中南部及沿海為典型地中海型氣候與丘陵地形，境內多山（亞平寧山脈縱貫全國）。",
+    "en": "The Alps and the agricultural Po Valley dominate the north; the center, south, and coastline have a classic Mediterranean climate and hilly terrain, with the Apennines running the length of the country."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text, front & rear identical",
+      "shape": "front 360×110mm, rear 520×110mm or 360×220mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Distinctive vertical red rectangle set inside a black diagonal stripe on the front face (black extends to the top of the bollard); the rear face shows a white rectangle instead of red — a rare \"vertical rectangle\" design shared only with Albania",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Round concrete poles are unusually common for a Mediterranean country, often with a distinctive concrete \"trident\" pole-top; the less-common wooden poles typically carry a small white sticker"
+    }
+  },
+  "historicalContext": {
+    "zh": "全國以標準義大利語為主，但南提洛爾（上阿迪傑）因鄰近奧地利而以德語共同官方語言呈現雙語路牌，西北部奧斯塔谷則與法語共同官方，是義大利境內少見的多語言邊境地帶。",
+    "en": "Standard Italian dominates nationally, but South Tyrol (Alto Adige) near the Austrian border has German as a co-official language with bilingual signage, and the northwestern Aosta Valley is co-official with French — genuine multilingual border pockets within an otherwise monolingual country."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["san-marino", "switzerland"],
+  "images": []
+}

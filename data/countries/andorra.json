@@ -1,0 +1,41 @@
+{
+  "id": "andorra",
+  "continent": "europe",
+  "subregion": "southern-europe",
+  "flagEmoji": "🇦🇩",
+  "names": { "zh": "安道爾", "en": "Andorra" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Catalan", "family": "Romance" }],
+    "note": "Andorra is the only country in the world where Catalan is the sole official language",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain"],
+  "terrainDescription": {
+    "zh": "位於庇里牛斯山脈東段的內陸微型國家，全境幾乎皆為高山地形，是歐洲海拔最高的首都所在地。",
+    "en": "A landlocked microstate in the eastern Pyrenees, almost entirely mountainous — home to the highest-elevation capital city in Europe."
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "black serials embossed on white background; national coat of arms + \"AND\" country code on the left, \"Principat d'Andorra\" in blue below the serial",
+      "shape": "rectangular, format 1 letter + 4 digits (e.g. A1234)",
+      "frontRequired": true
+    },
+    "bollardStyle": "Not independently documented — no Andorra-specific community meta found given its tiny size; treat as unconfirmed rather than inferred from Spain/France",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Not independently documented for Andorra specifically — flagging as unconfirmed rather than guessing a style"
+    }
+  },
+  "historicalContext": {
+    "zh": "安道爾夾於法國與西班牙之間，道路標誌設計與西班牙相近但語言改用加泰隆尼亞語，方向指標則採用獨特的瑞士721字體與白底紅框重點目的地設計；直到2025年1月才正式加入維也納道路標誌公約。",
+    "en": "Wedged between France and Spain, Andorra's road-sign design closely follows Spain's but with Catalan replacing Spanish; directional signage uses a distinctive Swiss 721 Black Condensed typeface with important destinations highlighted in red on white. It only formally acceded to the Vienna Convention on Road Signs and Signals in January 2025."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["spain", "france"],
+  "images": []
+}

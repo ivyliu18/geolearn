@@ -1,0 +1,44 @@
+{
+  "id": "norway",
+  "continent": "europe",
+  "subregion": "northern-europe",
+  "flagEmoji": "🇳🇴",
+  "names": { "zh": "挪威", "en": "Norway" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "Norwegian", "family": "North Germanic (Scandinavian)" }],
+    "notable": [
+      { "name": "Northern Sami", "family": "Uralic (Sami branch)", "note": "official status alongside Kven in parts of Troms and Finnmark since a 2021 reform; bilingual road/place-name signage in the far north" }
+    ],
+    "note": "Norwegian has two official written standards — Bokmål (~80% of users) and Nynorsk (~7.4%)",
+    "script": "Latin (æ, ø, å)"
+  },
+  "terrainTags": ["highland-mountain", "coastal", "boreal-taiga", "tundra"],
+  "terrainDescription": {
+    "zh": "以峽灣與山地地形著稱，西部海岸線曲折綿長，北部進入極圈後轉為苔原與針葉林交錯地帶。",
+    "en": "Famous for its fjords and mountainous terrain, with a long, deeply indented west coast; the far north crosses the Arctic Circle into tundra interspersed with boreal forest."
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; blue stripe with the Norwegian flag on the left (Norway is EEA, not EU, so no ring of gold stars)",
+      "shape": "rectangular, 520×110mm, format AB 12345",
+      "frontRequired": true
+    },
+    "bollardStyle": "Thin, curved rectangular bollards with the reflector set inside a black parallelogram, though bollards themselves are not very common; roadside snow poles (orange with a thin white reflector, black variants common between Bergen and Trondheim) are a more frequently seen marker",
+    "utilityPole": {
+      "material": "wood",
+      "transformerMount": "Wooden poles, often with a small black metal cap on top; lamps are typically mounted to the pole with a single thick bolt"
+    }
+  },
+  "historicalContext": {
+    "zh": "挪威語言使用兩套官方書寫標準——博克馬爾語（Bokmål，約八成使用者）與新挪威語（Nynorsk，約7.4%）；北部薩米語自2021年起在特羅姆斯、芬馬克部分地區取得官方地位，路牌可見雙語並列。挪威也是全歐洲少數中央分向線採黃色（類似北美系統）而非白色的國家。",
+    "en": "Norwegian has two official written standards — Bokmål (used by ~80%) and Nynorsk (~7.4%). Since a 2021 reform, Northern Sami has official status in parts of Troms and Finnmark, producing bilingual road signage in the far north. Norway is also one of the only countries in Europe with a yellow (not white) center line, resembling the North American system."
+  },
+  "culturalMarkers": [],
+  "commonlyConfusedWith": ["sweden", "denmark", "iceland", "finland"],
+  "images": []
+}
