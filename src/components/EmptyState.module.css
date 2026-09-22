@@ -1,0 +1,17 @@
+.wrap {
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--muted);
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--foreground);
+}
+
+.message {
+  font-size: 0.9rem;
+}

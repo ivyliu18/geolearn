@@ -1,0 +1,12 @@
+{
+  "africa": [
+    { "id": "east-africa", "names": { "zh": "東非", "en": "East Africa" } },
+    { "id": "west-africa", "names": { "zh": "西非", "en": "West Africa" } },
+    { "id": "southern-africa", "names": { "zh": "南部非洲", "en": "Southern Africa" } }
+  ],
+  "asia": [],
+  "europe": [],
+  "north-america": [],
+  "south-america": [],
+  "oceania": []
+}

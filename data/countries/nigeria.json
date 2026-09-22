@@ -1,0 +1,55 @@
+{
+  "id": "nigeria",
+  "continent": "africa",
+  "subregion": "west-africa",
+  "flagEmoji": "🇳🇬",
+  "names": { "zh": "奈及利亞", "en": "Nigeria" },
+  "driveSide": "right",
+  "language": {
+    "official": [{ "name": "English", "family": "Germanic" }],
+    "notable": [
+      { "name": "Hausa", "family": "Afro-Asiatic" },
+      { "name": "Yoruba", "family": "Niger-Congo" },
+      { "name": "Igbo", "family": "Niger-Congo" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["rainforest", "savanna", "coastal"],
+  "terrainDescription": {
+    "zh": "南部為熱帶雨林與三角洲，北部轉為薩赫爾草原",
+    "en": "Tropical rainforest and delta in the south, transitioning to Sahelian savanna in the north"
+  },
+  "roadInfra": {
+    "centerLineColor": "white",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white background, black text; state flag/coat of arms upper-left, state name & slogan top-centre, \"FEDERAL REPUBLIC OF NIGERIA\" at bottom",
+      "shape": "rectangular, ~300×150mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "No strongly standardized bollard color pattern; some concrete median dividers painted green-and-white (flag colors). Not a reliable clue on its own — roads are often unmarked/faded/potholed instead",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "Ladder-style pole with rung-like indents/through-holes running up the shaft, distinguishable from Brazil's similar-looking ladder poles"
+    }
+  },
+  "historicalContext": {
+    "zh": "官方統計超過250個民族語言，是非洲語言多樣性最高的國家之一，單一「國家語言」的概念並不適用。",
+    "en": "Officially over 250 ethnolinguistic groups — one of Africa's most linguistically diverse countries; the idea of a single \"national language\" doesn't really apply."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Ankara/wax-print fabric",
+      "note": {
+        "zh": "Ankara／蠟染布在市場很常見，但這種布料其實整個西非法語/英語系國家都普遍使用（迦納、多哥、貝南等皆有），不能單獨當奈及利亞的辨識證據；Aso-oke 織錦是約魯巴族特有的正式場合服飾，但日常街景較少見。",
+        "en": "Ankara/wax-print fabric is common in markets, but it's widespread across West Africa (Ghana, Togo, Benin too) — not diagnostic of Nigeria alone. Aso-oke weave is a Yoruba formal-occasion textile, rarely seen in everyday street scenes."
+      },
+      "confidence": 1,
+      "caveat": "Explicitly pan-regional — flag as low-confidence in UI, not a distinguishing clue on its own"
+    }
+  ],
+  "commonlyConfusedWith": ["ghana", "benin", "togo"],
+  "images": []
+}

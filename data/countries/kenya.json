@@ -1,0 +1,53 @@
+{
+  "id": "kenya",
+  "continent": "africa",
+  "subregion": "east-africa",
+  "flagEmoji": "🇰🇪",
+  "names": { "zh": "肯亞", "en": "Kenya" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Swahili", "family": "Niger-Congo / Bantu" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "script": "Latin"
+  },
+  "terrainTags": ["savanna", "highland-mountain", "coastal"],
+  "terrainDescription": {
+    "zh": "東非大裂谷、高原草原（如馬賽馬拉），沿海為熱帶氣候",
+    "en": "East African Rift highlands and savanna grassland (e.g. Maasai Mara); tropical climate along the coast"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "uk",
+    "plate": {
+      "color": "white front / yellow rear",
+      "shape": "rectangular, ~520×110mm",
+      "frontRequired": true
+    },
+    "bollardStyle": "Black-and-white striped concrete bollards near intersections, mostly seen in Nairobi and other larger towns; largely absent in rural areas",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "L-shaped crossbar arm; wooden poles also common; often carry a black skull-and-crossbones 'danger' warning plate"
+    }
+  },
+  "historicalContext": {
+    "zh": "史瓦希利語是班圖語族的通用語，融合了阿拉伯語借詞，反映東非海岸長期貿易史。",
+    "en": "Swahili is a Bantu lingua franca with many Arabic loanwords, reflecting centuries of East African coastal trade."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Kanga/Kitenge cloth + M-Pesa signage",
+      "note": {
+        "zh": "市場常見 Kanga／Kitenge 布料——特色是布料上直接印有史瓦希利語的諺語文字，可作為「文字線索」而非單純外觀；另外行動支付看板「M-Pesa」在肯亞極為普及（東非其他國家也有但密度較低）。",
+        "en": "Markets commonly feature Kanga/Kitenge cloth, which is printed with Swahili proverbs — this is a text clue, not appearance. Also, \"M-Pesa\" mobile-money signage is extremely common in Kenya (present elsewhere in East Africa too, but less dense)."
+      },
+      "confidence": 3,
+      "caveat": "Cloth text is a language clue; do not treat as an appearance-based identifier"
+    }
+  ],
+  "commonlyConfusedWith": ["tanzania", "uganda"],
+  "images": []
+}

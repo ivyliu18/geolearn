@@ -1,0 +1,56 @@
+{
+  "id": "south-africa",
+  "continent": "africa",
+  "subregion": "southern-africa",
+  "flagEmoji": "🇿🇦",
+  "names": { "zh": "南非", "en": "South Africa" },
+  "driveSide": "left",
+  "language": {
+    "official": [
+      { "name": "Zulu", "family": "Niger-Congo / Bantu (click consonants)" },
+      { "name": "Xhosa", "family": "Niger-Congo / Bantu (click consonants)" },
+      { "name": "Afrikaans", "family": "Germanic" },
+      { "name": "English", "family": "Germanic" }
+    ],
+    "note": "11 official languages total",
+    "script": "Latin"
+  },
+  "terrainTags": ["highland-mountain", "mediterranean", "coastal", "agricultural-plains"],
+  "terrainDescription": {
+    "zh": "地形多樣：內陸高原（highveld）、德拉肯斯堡山脈、開普敦地中海型氣候、東岸亞熱帶",
+    "en": "Highly varied terrain: interior highveld plateau, the Drakensberg mountains, Mediterranean-climate Cape Town, and a subtropical east coast"
+  },
+  "roadInfra": {
+    "centerLineColor": "yellow",
+    "laneLineColor": "white",
+    "distanceUnit": "km",
+    "signStandard": "vienna-convention",
+    "plate": {
+      "color": "white front / yellow rear (varies by province), black text, 2-letter province code suffix (e.g. GP, WC, KZN)",
+      "shape": "rectangular",
+      "frontRequired": true
+    },
+    "bollardStyle": "No strongly standardized or common bollard style — not a useful identifying clue in South Africa",
+    "utilityPole": {
+      "material": "concrete",
+      "transformerMount": "1–5 horizontal cross-arms with small white pin insulators (\"bird poles\"); traffic-light poles are typically painted yellow"
+    }
+  },
+  "historicalContext": {
+    "zh": "語言/文化的高度多樣性源自班圖遷徙、荷蘭/英國殖民、以及種族隔離時期的歷史政策，11種官方語言在憲法中並列。",
+    "en": "The high linguistic/cultural diversity stems from Bantu migrations, Dutch/British colonization, and apartheid-era policy history; all 11 languages are constitutionally co-official."
+  },
+  "culturalMarkers": [
+    {
+      "item": "Ndebele geometric house-wall painting",
+      "note": {
+        "zh": "恩德貝勒族（Ndebele）的幾何彩繪房屋外牆是南非很獨特、辨識度高的「建築」而非服飾線索；祖魯串珠飾品多見於觀光/文化展演場合，日常街景較少見，不宜過度預期。",
+        "en": "Ndebele geometric house-wall paintings are a distinctive, high-visibility *architectural* (not clothing) clue unique to South Africa. Zulu beadwork mainly appears at tourist/cultural events, not everyday street scenes — don't over-expect it."
+      },
+      "confidence": 2,
+      "caveat": "This is architecture, not clothing — tag accordingly in the images[].tags taxonomy"
+    }
+  ],
+  "commonlyConfusedWith": ["namibia", "lesotho", "eswatini", "botswana"],
+  "images": []
+}

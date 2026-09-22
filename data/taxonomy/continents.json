@@ -1,0 +1,8 @@
+[
+  { "id": "africa", "names": { "zh": "非洲", "en": "Africa" } },
+  { "id": "asia", "names": { "zh": "亞洲", "en": "Asia" } },
+  { "id": "europe", "names": { "zh": "歐洲", "en": "Europe" } },
+  { "id": "north-america", "names": { "zh": "北美洲", "en": "North America" } },
+  { "id": "south-america", "names": { "zh": "南美洲", "en": "South America" } },
+  { "id": "oceania", "names": { "zh": "大洋洲", "en": "Oceania" } }
+]
